@@ -50,7 +50,7 @@
                 <Label HorizontalTextAlignment="Center" VerticalOptions="Center">
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Text="Print" Style="{StaticResource LargeTitle}"/>
+                            <Span Text="Print" TextColor="White" Style="{StaticResource LargeTitle}"/>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
@@ -62,7 +62,7 @@
                 <Label HorizontalTextAlignment="Center" VerticalOptions="Center">
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Text="Email" Style="{StaticResource LargeTitle}"/>
+                            <Span Text="Email" TextColor="White" Style="{StaticResource LargeTitle}"/>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
@@ -74,7 +74,7 @@
                 <Label HorizontalTextAlignment="Center" VerticalOptions="Center">
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Text="None" Style="{StaticResource LargeTitle}"/>
+                            <Span Text="None" TextColor="White" Style="{StaticResource LargeTitle}"/>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
@@ -86,7 +86,7 @@
                 <Label HorizontalTextAlignment="Center" VerticalOptions="Center">
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Text="Text" Style="{StaticResource LargeTitle}"/>
+                            <Span Text="Text" TextColor="White" Style="{StaticResource LargeTitle}"/>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>

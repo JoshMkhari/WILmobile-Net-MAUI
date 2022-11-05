@@ -38,9 +38,9 @@
                 <Label HorizontalTextAlignment="Center" VerticalOptions="Center">
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Text="15%" Style="{StaticResource LargeTitle}"/>
+                            <Span Text="15%" TextColor="White" Style="{StaticResource LargeTitle}"/>
                             <Span Text="{x:Static system:Environment.NewLine}"/>
-                            <Span Text="Good"/>
+                            <Span Text="Good" TextColor="White"/>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
@@ -52,9 +52,9 @@
                 <Label HorizontalTextAlignment="Center" VerticalOptions="Center">
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Text="18%" Style="{StaticResource LargeTitle}"/>
+                            <Span Text="18%" TextColor="White" Style="{StaticResource LargeTitle}"/>
                             <Span Text="{x:Static system:Environment.NewLine}"/>
-                            <Span Text="Great"/>
+                            <Span Text="Great" TextColor="White"/>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
@@ -66,9 +66,9 @@
                 <Label HorizontalTextAlignment="Center" VerticalOptions="Center">
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Text="20%" Style="{StaticResource LargeTitle}"/>
+                            <Span Text="20%" TextColor="White" Style="{StaticResource LargeTitle}"/>
                             <Span Text="{x:Static system:Environment.NewLine}"/>
-                            <Span Text="Wow!"/>
+                            <Span Text="Wow!" TextColor="White"/>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
@@ -80,9 +80,9 @@
                 <Label HorizontalTextAlignment="Center" VerticalOptions="Center">
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Text="30%" Style="{StaticResource LargeTitle}"/>
+                            <Span Text="30%" TextColor="White" Style="{StaticResource LargeTitle}"/>
                             <Span Text="{x:Static system:Environment.NewLine}"/>
-                            <Span Text="Best Service Ever!"/>
+                            <Span Text="Best Service Ever!" TextColor="White"/>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
@@ -94,7 +94,7 @@
                 <Label HorizontalTextAlignment="Center" VerticalOptions="Center">
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Text="No Tip" Style="{StaticResource LargeTitle}"/>
+                            <Span Text="No Tip" TextColor="White" Style="{StaticResource LargeTitle}"/>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
