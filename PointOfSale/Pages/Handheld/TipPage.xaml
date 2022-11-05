@@ -101,6 +101,6 @@
             </RadioButton.Content>
         </RadioButton>
         
-        <Button Grid.Row="5" HorizontalOptions="Fill" Grid.ColumnSpan="2" Text="Continue" Command="{Binding ContinueCommand}"/>
+        <Button Grid.Row="5" HorizontalOptions="Fill" Grid.ColumnSpan="2" Text="Continue" Command="{Binding ContinueCommand}" />
     </Grid>
 </ContentPage>

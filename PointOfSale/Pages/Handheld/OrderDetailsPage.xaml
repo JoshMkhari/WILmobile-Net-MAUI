@@ -43,7 +43,7 @@
         </CollectionView>
 
         <Grid ColumnSpacing="20" ColumnDefinitions="*,*" Grid.Row="2">
-            <Button Text="Adopt" Grid.Column="1" Command="{Binding PayCommand}" HorizontalOptions="Fill"/>
+            <Button Text="Adopt" Grid.Column="1" Command="{Binding PayCommand}" HorizontalOptions="Fill" />
         </Grid>
 
     </Grid>

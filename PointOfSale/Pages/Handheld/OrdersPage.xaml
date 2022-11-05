@@ -13,11 +13,16 @@
     </ContentPage.BindingContext>
     
     <Grid RowDefinitions="120, *, 66" Margin="20">
-        <VerticalStackLayout VerticalOptions="Center" Spacing="8">
-            <Label Text="Adopt a pet" Style="{StaticResource LargeTitle}"/>
-            <Label Text="{Binding Source={x:Static system:DateTime.Today}, StringFormat=Date: {0:dddd, MMMM dd yyyy}, FallbackValue='Hello'}"/>
+    
+        <VerticalStackLayout VerticalOptions="Center" Spacing="20">
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="30">
+                <Label Text="Adopt a pet" Style="{StaticResource LargeTitle}"/>
+                <Button Text="Contact" Grid.Column="1" Command="{Binding PayCommand}"/>
+                <Label Text="{Binding Source={x:Static system:DateTime.Today}, StringFormat=Date: {0:dddd, MMMM dd yyyy}, FallbackValue='Hello'}"/>
+            </HorizontalStackLayout>
             <BoxView Style="{StaticResource HRule}"/>
         </VerticalStackLayout>
+
 
         <CollectionView Grid.Row="1" Grid.RowSpan="2" ItemsSource="{Binding Orders}">
             <CollectionView.ItemTemplate>
@@ -51,12 +56,15 @@
             </CollectionView.Header>
         </CollectionView>
 
+        <!--
         <FlexLayout Grid.Row="2" AlignContent="SpaceAround" JustifyContent="SpaceAround"
                     Background="{StaticResource DarkBg1Transparent}">
             <Image Source="home.png" />
             <Image Source="logout.png"/>
-            <Button Text="Contact" Grid.Column="1" Command="{Binding PayCommand}" HorizontalOptions="Fill"/>
-        </FlexLayout>
+            <Button Text="Contact" Grid.Column="1" Command="{Binding PayCommand}" HorizontalOptions="Fill"
+                    BackgroundColor="Blue"/>
+        </FlexLayout
+        -->
 
     </Grid>
 </ContentPage>
