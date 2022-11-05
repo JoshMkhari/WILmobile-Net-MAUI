@@ -1650,6 +1650,12 @@
         <member name="P:PointOfSale.Pages.Handheld.OrdersViewModel.Orders">
             <inheritdoc cref="F:PointOfSale.Pages.Handheld.OrdersViewModel._orders"/>
         </member>
+        <member name="F:PointOfSale.Pages.Handheld.OrdersViewModel.payCommand">
+            <summary>The backing field for <see cref="P:PointOfSale.Pages.Handheld.OrdersViewModel.PayCommand"/>.</summary>
+        </member>
+        <member name="P:PointOfSale.Pages.Handheld.OrdersViewModel.PayCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PointOfSale.Pages.Handheld.OrdersViewModel.Pay"/>.</summary>
+        </member>
         <member name="E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged">
             <inheritdoc cref = "E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged"/>
         </member>

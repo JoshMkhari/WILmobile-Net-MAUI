@@ -10,4 +10,17 @@ public partial class OrdersViewModel
     {
         _orders = new ObservableCollection<Order>(AppData.Orders);
     }
+    
+    [RelayCommand]
+    async Task Pay()
+    {
+        try
+        {
+            await Shell.Current.GoToAsync($"{nameof(ScanPage)}");
+        }
+        catch (Exception ex)
+        {
+            Debug.WriteLine(ex.Message);
+        }
+    }
 }

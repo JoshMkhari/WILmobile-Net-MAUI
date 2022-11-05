@@ -50,5 +50,12 @@
             </CollectionView.Header>
         </CollectionView>
 
+        <FlexLayout Grid.Row="2" AlignContent="SpaceAround" JustifyContent="SpaceAround"
+                    Background="{StaticResource DarkBg1Transparent}">
+            <Image Source="home.png" />
+            <Image Source="logout.png"/>
+            <Button Text="Contact" Grid.Column="1" Command="{Binding PayCommand}" HorizontalOptions="Fill"/>
+        </FlexLayout>
+
     </Grid>
 </ContentPage>
