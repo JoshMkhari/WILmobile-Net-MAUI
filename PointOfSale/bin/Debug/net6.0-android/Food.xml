@@ -997,6 +997,662 @@
         <member name="P:PointOfSale.Pages.DashboardViewModel.ViewAllCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PointOfSale.Pages.DashboardViewModel.ViewAll"/>.</summary>
         </member>
+        <member name="E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged">
+            <inheritdoc cref = "E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged"/>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
+            </summary>
+            <param name = "e">The input <see cref = "T:System.ComponentModel.PropertyChangedEventArgs"/> instance.</param>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.OnPropertyChanged(System.String)">
+            <summary>
+            Raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
+            </summary>
+            <param name = "propertyName">(optional) The name of the property that changed.</param>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0@,``0,System.String)">
+            <summary>
+            Compares the current and new values for a given property. If the value has changed, updates
+            the property with the new value, then raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
+            </summary>
+            <typeparam name = "T">The type of the property that changed.</typeparam>
+            <param name = "field">The field storing the property's value.</param>
+            <param name = "newValue">The property's value after the change occurred.</param>
+            <param name = "propertyName">(optional) The name of the property that changed.</param>
+            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
+            <remarks>
+            The <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are the same.
+            </remarks>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0@,``0,System.Collections.Generic.IEqualityComparer{``0},System.String)">
+            <summary>
+            Compares the current and new values for a given property. If the value has changed, updates
+            the property with the new value, then raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
+            See additional notes about this overload in <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0@,``0,System.String)"/>.
+            </summary>
+            <typeparam name = "T">The type of the property that changed.</typeparam>
+            <param name = "field">The field storing the property's value.</param>
+            <param name = "newValue">The property's value after the change occurred.</param>
+            <param name = "comparer">The <see cref = "T:System.Collections.Generic.IEqualityComparer`1"/> instance to use to compare the input values.</param>
+            <param name = "propertyName">(optional) The name of the property that changed.</param>
+            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0,``0,System.Action{``0},System.String)">
+            <summary>
+            Compares the current and new values for a given property. If the value has changed, updates
+            the property with the new value, then raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
+            This overload is much less efficient than <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0@,``0,System.String)"/> and it
+            should only be used when the former is not viable (eg. when the target property being
+            updated does not directly expose a backing field that can be passed by reference).
+            For performance reasons, it is recommended to use a stateful callback if possible through
+            the <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.String)"/> whenever possible
+            instead of this overload, as that will allow the C# compiler to cache the input callback and
+            reduce the memory allocations. More info on that overload are available in the related XML
+            docs. This overload is here for completeness and in cases where that is not applicable.
+            </summary>
+            <typeparam name = "T">The type of the property that changed.</typeparam>
+            <param name = "oldValue">The current property value.</param>
+            <param name = "newValue">The property's value after the change occurred.</param>
+            <param name = "callback">A callback to invoke to update the property value.</param>
+            <param name = "propertyName">(optional) The name of the property that changed.</param>
+            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
+            <remarks>
+            The <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are the same.
+            </remarks>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Action{``0},System.String)">
+            <summary>
+            Compares the current and new values for a given property. If the value has changed, updates
+            the property with the new value, then raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
+            See additional notes about this overload in <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0,``0,System.Action{``0},System.String)"/>.
+            </summary>
+            <typeparam name = "T">The type of the property that changed.</typeparam>
+            <param name = "oldValue">The current property value.</param>
+            <param name = "newValue">The property's value after the change occurred.</param>
+            <param name = "comparer">The <see cref = "T:System.Collections.Generic.IEqualityComparer`1"/> instance to use to compare the input values.</param>
+            <param name = "callback">A callback to invoke to update the property value.</param>
+            <param name = "propertyName">(optional) The name of the property that changed.</param>
+            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.String)">
+             <summary>
+             Compares the current and new values for a given nested property. If the value has changed,
+             updates the property and then raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
+             The behavior mirrors that of <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0@,``0,System.String)"/>,
+             with the difference being that this method is used to relay properties from a wrapped model in the
+             current instance. This type is useful when creating wrapping, bindable objects that operate over
+             models that lack support for notification (eg. for CRUD operations).
+             Suppose we have this model (eg. for a database row in a table):
+             <code>
+             public class Person
+             {
+                 public string Name { get; set; }
+             }
+             </code>
+             We can then use a property to wrap instances of this type into our observable model (which supports
+             notifications), injecting the notification to the properties of that model, like so:
+             <code>
+             [INotifyPropertyChanged]
+             public partial class BindablePerson
+             {
+                 public Model { get; }
+            
+                 public BindablePerson(Person model)
+                 {
+                     Model = model;
+                 }
+            
+                 public string Name
+                 {
+                     get => Model.Name;
+                     set => Set(Model.Name, value, Model, (model, name) => model.Name = name);
+                 }
+             }
+             </code>
+             This way we can then use the wrapping object in our application, and all those "proxy" properties will
+             also raise notifications when changed. Note that this method is not meant to be a replacement for
+             <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0@,``0,System.String)"/>, and it should only be used when relaying properties to a model that
+             doesn't support notifications, and only if you can't implement notifications to that model directly (eg. by having
+             it implement <see cref = "T:System.ComponentModel.INotifyPropertyChanged"/>). The syntax relies on passing the target model and a stateless callback
+             to allow the C# compiler to cache the function, which results in much better performance and no memory usage.
+             </summary>
+             <typeparam name = "TModel">The type of model whose property (or field) to set.</typeparam>
+             <typeparam name = "T">The type of property (or field) to set.</typeparam>
+             <param name = "oldValue">The current property value.</param>
+             <param name = "newValue">The property's value after the change occurred.</param>
+             <param name = "model">The model containing the property being updated.</param>
+             <param name = "callback">The callback to invoke to set the target property value, if a change has occurred.</param>
+             <param name = "propertyName">(optional) The name of the property that changed.</param>
+             <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
+             <remarks>
+             The <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are the same.
+             </remarks>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``2(``1,``1,System.Collections.Generic.IEqualityComparer{``1},``0,System.Action{``0,``1},System.String)">
+            <summary>
+            Compares the current and new values for a given nested property. If the value has changed,
+            updates the property and then raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
+            The behavior mirrors that of <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0@,``0,System.String)"/>,
+            with the difference being that this method is used to relay properties from a wrapped model in the
+            current instance. See additional notes about this overload in <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.String)"/>.
+            </summary>
+            <typeparam name = "TModel">The type of model whose property (or field) to set.</typeparam>
+            <typeparam name = "T">The type of property (or field) to set.</typeparam>
+            <param name = "oldValue">The current property value.</param>
+            <param name = "newValue">The property's value after the change occurred.</param>
+            <param name = "comparer">The <see cref = "T:System.Collections.Generic.IEqualityComparer`1"/> instance to use to compare the input values.</param>
+            <param name = "model">The model containing the property being updated.</param>
+            <param name = "callback">The callback to invoke to set the target property value, if a change has occurred.</param>
+            <param name = "propertyName">(optional) The name of the property that changed.</param>
+            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.SetPropertyAndNotifyOnCompletion(PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier@,System.Threading.Tasks.Task,System.String)">
+             <summary>
+             Compares the current and new values for a given field (which should be the backing field for a property).
+             If the value has changed, updates the field and then raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
+             The behavior mirrors that of <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0@,``0,System.String)"/>, with the difference being that
+             this method will also monitor the new value of the property (a generic <see cref = "T:System.Threading.Tasks.Task"/>) and will also
+             raise the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> again for the target property when it completes.
+             This can be used to update bindings observing that <see cref = "T:System.Threading.Tasks.Task"/> or any of its properties.
+             This method and its overload specifically rely on the <see cref = "T:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier"/> type, which needs
+             to be used in the backing field for the target <see cref = "T:System.Threading.Tasks.Task"/> property. The field doesn't need to be
+             initialized, as this method will take care of doing that automatically. The <see cref = "T:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier"/>
+             type also includes an implicit operator, so it can be assigned to any <see cref = "T:System.Threading.Tasks.Task"/> instance directly.
+             Here is a sample property declaration using this method:
+             <code>
+             private TaskNotifier myTask;
+            
+             public Task MyTask
+             {
+                 get => myTask;
+                 private set => SetAndNotifyOnCompletion(ref myTask, value);
+             }
+             </code>
+             </summary>
+             <param name = "taskNotifier">The field notifier to modify.</param>
+             <param name = "newValue">The property's value after the change occurred.</param>
+             <param name = "propertyName">(optional) The name of the property that changed.</param>
+             <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
+             <remarks>
+             The <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are
+             the same. The return value being <see langword="true"/> only indicates that the new value being assigned to
+             <paramref name = "taskNotifier"/> is different than the previous one, and it does not mean the new
+             <see cref = "T:System.Threading.Tasks.Task"/> instance passed as argument is in any particular state.
+             </remarks>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.SetPropertyAndNotifyOnCompletion(PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier@,System.Threading.Tasks.Task,System.Action{System.Threading.Tasks.Task},System.String)">
+            <summary>
+            Compares the current and new values for a given field (which should be the backing field for a property).
+            If the value has changed, updates the field and then raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
+            This method is just like <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetPropertyAndNotifyOnCompletion(PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier@,System.Threading.Tasks.Task,System.String)"/>,
+            with the difference being an extra <see cref = "T:System.Action`1"/> parameter with a callback being invoked
+            either immediately, if the new task has already completed or is <see langword="null"/>, or upon completion.
+            </summary>
+            <param name = "taskNotifier">The field notifier to modify.</param>
+            <param name = "newValue">The property's value after the change occurred.</param>
+            <param name = "callback">A callback to invoke to update the property value.</param>
+            <param name = "propertyName">(optional) The name of the property that changed.</param>
+            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
+            <remarks>
+            The <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are the same.
+            </remarks>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.SetPropertyAndNotifyOnCompletion``1(PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.String)">
+             <summary>
+             Compares the current and new values for a given field (which should be the backing field for a property).
+             If the value has changed, updates the field and then raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
+             The behavior mirrors that of <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0@,``0,System.String)"/>, with the difference being that
+             this method will also monitor the new value of the property (a generic <see cref = "T:System.Threading.Tasks.Task"/>) and will also
+             raise the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> again for the target property when it completes.
+             This can be used to update bindings observing that <see cref = "T:System.Threading.Tasks.Task"/> or any of its properties.
+             This method and its overload specifically rely on the <see cref = "T:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier`1"/> type, which needs
+             to be used in the backing field for the target <see cref = "T:System.Threading.Tasks.Task"/> property. The field doesn't need to be
+             initialized, as this method will take care of doing that automatically. The <see cref = "T:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier`1"/>
+             type also includes an implicit operator, so it can be assigned to any <see cref = "T:System.Threading.Tasks.Task"/> instance directly.
+             Here is a sample property declaration using this method:
+             <code>
+             private TaskNotifier&lt;int&gt; myTask;
+            
+             public Task&lt;int&gt; MyTask
+             {
+                 get => myTask;
+                 private set => SetAndNotifyOnCompletion(ref myTask, value);
+             }
+             </code>
+             </summary>
+             <typeparam name = "T">The type of result for the <see cref = "T:System.Threading.Tasks.Task`1"/> to set and monitor.</typeparam>
+             <param name = "taskNotifier">The field notifier to modify.</param>
+             <param name = "newValue">The property's value after the change occurred.</param>
+             <param name = "propertyName">(optional) The name of the property that changed.</param>
+             <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
+             <remarks>
+             The <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are
+             the same. The return value being <see langword="true"/> only indicates that the new value being assigned to
+             <paramref name = "taskNotifier"/> is different than the previous one, and it does not mean the new
+             <see cref = "T:System.Threading.Tasks.Task`1"/> instance passed as argument is in any particular state.
+             </remarks>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.SetPropertyAndNotifyOnCompletion``1(PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.Action{System.Threading.Tasks.Task{``0}},System.String)">
+            <summary>
+            Compares the current and new values for a given field (which should be the backing field for a property).
+            If the value has changed, updates the field and then raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
+            This method is just like <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetPropertyAndNotifyOnCompletion``1(PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.String)"/>,
+            with the difference being an extra <see cref = "T:System.Action`1"/> parameter with a callback being invoked
+            either immediately, if the new task has already completed or is <see langword="null"/>, or upon completion.
+            </summary>
+            <typeparam name = "T">The type of result for the <see cref = "T:System.Threading.Tasks.Task`1"/> to set and monitor.</typeparam>
+            <param name = "taskNotifier">The field notifier to modify.</param>
+            <param name = "newValue">The property's value after the change occurred.</param>
+            <param name = "callback">A callback to invoke to update the property value.</param>
+            <param name = "propertyName">(optional) The name of the property that changed.</param>
+            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
+            <remarks>
+            The <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are the same.
+            </remarks>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.SetPropertyAndNotifyOnCompletion``1(PointOfSale.Pages.Handheld.TipViewModel.ITaskNotifier{``0},``0,System.Action{``0},System.String)">
+            <summary>
+            Implements the notification logic for the related methods.
+            </summary>
+            <typeparam name = "TTask">The type of <see cref = "T:System.Threading.Tasks.Task"/> to set and monitor.</typeparam>
+            <param name = "taskNotifier">The field notifier.</param>
+            <param name = "newValue">The property's value after the change occurred.</param>
+            <param name = "callback">(optional) A callback to invoke to update the property value.</param>
+            <param name = "propertyName">(optional) The name of the property that changed.</param>
+            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
+        </member>
+        <member name="T:PointOfSale.Pages.Handheld.TipViewModel.ITaskNotifier`1">
+            <summary>
+            An interface for task notifiers of a specified type.
+            </summary>
+            <typeparam name = "TTask">The type of value to store.</typeparam>
+        </member>
+        <member name="P:PointOfSale.Pages.Handheld.TipViewModel.ITaskNotifier`1.Task">
+            <summary>
+            Gets or sets the wrapped <typeparamref name = "TTask"/> value.
+            </summary>
+        </member>
+        <member name="T:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier">
+            <summary>
+            A wrapping class that can hold a <see cref = "T:System.Threading.Tasks.Task"/> value.
+            </summary>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref = "T:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier"/> class.
+            </summary>
+        </member>
+        <member name="P:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier.PointOfSale#Pages#Handheld#TipViewModel#ITaskNotifier{System#Threading#Tasks#Task}#Task">
+            <inheritdoc/>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier.op_Implicit(PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier)~System.Threading.Tasks.Task">
+            <summary>
+            Unwraps the <see cref = "T:System.Threading.Tasks.Task"/> value stored in the current instance.
+            </summary>
+            <param name = "notifier">The input <see cref = "T:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier`1"/> instance.</param>
+        </member>
+        <member name="T:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier`1">
+            <summary>
+            A wrapping class that can hold a <see cref = "T:System.Threading.Tasks.Task`1"/> value.
+            </summary>
+            <typeparam name = "T">The type of value for the wrapped <see cref = "T:System.Threading.Tasks.Task`1"/> instance.</typeparam>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier`1.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref = "T:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier`1"/> class.
+            </summary>
+        </member>
+        <member name="P:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier`1.PointOfSale#Pages#Handheld#TipViewModel#ITaskNotifier{System#Threading#Tasks#Task{T}}#Task">
+            <inheritdoc/>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier`1.op_Implicit(PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier{`0})~System.Threading.Tasks.Task{`0}">
+            <summary>
+            Unwraps the <see cref = "T:System.Threading.Tasks.Task`1"/> value stored in the current instance.
+            </summary>
+            <param name = "notifier">The input <see cref = "T:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier`1"/> instance.</param>
+        </member>
+        <member name="P:PointOfSale.Pages.Handheld.TipViewModel.Order">
+            <inheritdoc cref="F:PointOfSale.Pages.Handheld.TipViewModel.order"/>
+        </member>
+        <member name="P:PointOfSale.Pages.Handheld.TipViewModel.Tip">
+            <inheritdoc cref="F:PointOfSale.Pages.Handheld.TipViewModel.tip"/>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.OnTipChanged(System.Double)">
+            <summary>Executes the logic for when <see cref="P:PointOfSale.Pages.Handheld.TipViewModel.Tip"/> just changed.</summary>
+        </member>
+        <member name="F:PointOfSale.Pages.Handheld.TipViewModel.continueCommand">
+            <summary>The backing field for <see cref="P:PointOfSale.Pages.Handheld.TipViewModel.ContinueCommand"/>.</summary>
+        </member>
+        <member name="P:PointOfSale.Pages.Handheld.TipViewModel.ContinueCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:PointOfSale.Pages.Handheld.TipViewModel.Continue"/>.</summary>
+        </member>
+        <member name="E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged">
+            <inheritdoc cref = "E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged"/>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
+            </summary>
+            <param name = "e">The input <see cref = "T:System.ComponentModel.PropertyChangedEventArgs"/> instance.</param>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.OnPropertyChanged(System.String)">
+            <summary>
+            Raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
+            </summary>
+            <param name = "propertyName">(optional) The name of the property that changed.</param>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0@,``0,System.String)">
+            <summary>
+            Compares the current and new values for a given property. If the value has changed, updates
+            the property with the new value, then raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
+            </summary>
+            <typeparam name = "T">The type of the property that changed.</typeparam>
+            <param name = "field">The field storing the property's value.</param>
+            <param name = "newValue">The property's value after the change occurred.</param>
+            <param name = "propertyName">(optional) The name of the property that changed.</param>
+            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
+            <remarks>
+            The <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are the same.
+            </remarks>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0@,``0,System.Collections.Generic.IEqualityComparer{``0},System.String)">
+            <summary>
+            Compares the current and new values for a given property. If the value has changed, updates
+            the property with the new value, then raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
+            See additional notes about this overload in <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0@,``0,System.String)"/>.
+            </summary>
+            <typeparam name = "T">The type of the property that changed.</typeparam>
+            <param name = "field">The field storing the property's value.</param>
+            <param name = "newValue">The property's value after the change occurred.</param>
+            <param name = "comparer">The <see cref = "T:System.Collections.Generic.IEqualityComparer`1"/> instance to use to compare the input values.</param>
+            <param name = "propertyName">(optional) The name of the property that changed.</param>
+            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0,``0,System.Action{``0},System.String)">
+            <summary>
+            Compares the current and new values for a given property. If the value has changed, updates
+            the property with the new value, then raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
+            This overload is much less efficient than <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0@,``0,System.String)"/> and it
+            should only be used when the former is not viable (eg. when the target property being
+            updated does not directly expose a backing field that can be passed by reference).
+            For performance reasons, it is recommended to use a stateful callback if possible through
+            the <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.String)"/> whenever possible
+            instead of this overload, as that will allow the C# compiler to cache the input callback and
+            reduce the memory allocations. More info on that overload are available in the related XML
+            docs. This overload is here for completeness and in cases where that is not applicable.
+            </summary>
+            <typeparam name = "T">The type of the property that changed.</typeparam>
+            <param name = "oldValue">The current property value.</param>
+            <param name = "newValue">The property's value after the change occurred.</param>
+            <param name = "callback">A callback to invoke to update the property value.</param>
+            <param name = "propertyName">(optional) The name of the property that changed.</param>
+            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
+            <remarks>
+            The <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are the same.
+            </remarks>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Action{``0},System.String)">
+            <summary>
+            Compares the current and new values for a given property. If the value has changed, updates
+            the property with the new value, then raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
+            See additional notes about this overload in <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0,``0,System.Action{``0},System.String)"/>.
+            </summary>
+            <typeparam name = "T">The type of the property that changed.</typeparam>
+            <param name = "oldValue">The current property value.</param>
+            <param name = "newValue">The property's value after the change occurred.</param>
+            <param name = "comparer">The <see cref = "T:System.Collections.Generic.IEqualityComparer`1"/> instance to use to compare the input values.</param>
+            <param name = "callback">A callback to invoke to update the property value.</param>
+            <param name = "propertyName">(optional) The name of the property that changed.</param>
+            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.String)">
+             <summary>
+             Compares the current and new values for a given nested property. If the value has changed,
+             updates the property and then raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
+             The behavior mirrors that of <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0@,``0,System.String)"/>,
+             with the difference being that this method is used to relay properties from a wrapped model in the
+             current instance. This type is useful when creating wrapping, bindable objects that operate over
+             models that lack support for notification (eg. for CRUD operations).
+             Suppose we have this model (eg. for a database row in a table):
+             <code>
+             public class Person
+             {
+                 public string Name { get; set; }
+             }
+             </code>
+             We can then use a property to wrap instances of this type into our observable model (which supports
+             notifications), injecting the notification to the properties of that model, like so:
+             <code>
+             [INotifyPropertyChanged]
+             public partial class BindablePerson
+             {
+                 public Model { get; }
+            
+                 public BindablePerson(Person model)
+                 {
+                     Model = model;
+                 }
+            
+                 public string Name
+                 {
+                     get => Model.Name;
+                     set => Set(Model.Name, value, Model, (model, name) => model.Name = name);
+                 }
+             }
+             </code>
+             This way we can then use the wrapping object in our application, and all those "proxy" properties will
+             also raise notifications when changed. Note that this method is not meant to be a replacement for
+             <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0@,``0,System.String)"/>, and it should only be used when relaying properties to a model that
+             doesn't support notifications, and only if you can't implement notifications to that model directly (eg. by having
+             it implement <see cref = "T:System.ComponentModel.INotifyPropertyChanged"/>). The syntax relies on passing the target model and a stateless callback
+             to allow the C# compiler to cache the function, which results in much better performance and no memory usage.
+             </summary>
+             <typeparam name = "TModel">The type of model whose property (or field) to set.</typeparam>
+             <typeparam name = "T">The type of property (or field) to set.</typeparam>
+             <param name = "oldValue">The current property value.</param>
+             <param name = "newValue">The property's value after the change occurred.</param>
+             <param name = "model">The model containing the property being updated.</param>
+             <param name = "callback">The callback to invoke to set the target property value, if a change has occurred.</param>
+             <param name = "propertyName">(optional) The name of the property that changed.</param>
+             <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
+             <remarks>
+             The <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are the same.
+             </remarks>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``2(``1,``1,System.Collections.Generic.IEqualityComparer{``1},``0,System.Action{``0,``1},System.String)">
+            <summary>
+            Compares the current and new values for a given nested property. If the value has changed,
+            updates the property and then raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
+            The behavior mirrors that of <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0@,``0,System.String)"/>,
+            with the difference being that this method is used to relay properties from a wrapped model in the
+            current instance. See additional notes about this overload in <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.String)"/>.
+            </summary>
+            <typeparam name = "TModel">The type of model whose property (or field) to set.</typeparam>
+            <typeparam name = "T">The type of property (or field) to set.</typeparam>
+            <param name = "oldValue">The current property value.</param>
+            <param name = "newValue">The property's value after the change occurred.</param>
+            <param name = "comparer">The <see cref = "T:System.Collections.Generic.IEqualityComparer`1"/> instance to use to compare the input values.</param>
+            <param name = "model">The model containing the property being updated.</param>
+            <param name = "callback">The callback to invoke to set the target property value, if a change has occurred.</param>
+            <param name = "propertyName">(optional) The name of the property that changed.</param>
+            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.SetPropertyAndNotifyOnCompletion(PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier@,System.Threading.Tasks.Task,System.String)">
+             <summary>
+             Compares the current and new values for a given field (which should be the backing field for a property).
+             If the value has changed, updates the field and then raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
+             The behavior mirrors that of <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0@,``0,System.String)"/>, with the difference being that
+             this method will also monitor the new value of the property (a generic <see cref = "T:System.Threading.Tasks.Task"/>) and will also
+             raise the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> again for the target property when it completes.
+             This can be used to update bindings observing that <see cref = "T:System.Threading.Tasks.Task"/> or any of its properties.
+             This method and its overload specifically rely on the <see cref = "T:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier"/> type, which needs
+             to be used in the backing field for the target <see cref = "T:System.Threading.Tasks.Task"/> property. The field doesn't need to be
+             initialized, as this method will take care of doing that automatically. The <see cref = "T:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier"/>
+             type also includes an implicit operator, so it can be assigned to any <see cref = "T:System.Threading.Tasks.Task"/> instance directly.
+             Here is a sample property declaration using this method:
+             <code>
+             private TaskNotifier myTask;
+            
+             public Task MyTask
+             {
+                 get => myTask;
+                 private set => SetAndNotifyOnCompletion(ref myTask, value);
+             }
+             </code>
+             </summary>
+             <param name = "taskNotifier">The field notifier to modify.</param>
+             <param name = "newValue">The property's value after the change occurred.</param>
+             <param name = "propertyName">(optional) The name of the property that changed.</param>
+             <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
+             <remarks>
+             The <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are
+             the same. The return value being <see langword="true"/> only indicates that the new value being assigned to
+             <paramref name = "taskNotifier"/> is different than the previous one, and it does not mean the new
+             <see cref = "T:System.Threading.Tasks.Task"/> instance passed as argument is in any particular state.
+             </remarks>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.SetPropertyAndNotifyOnCompletion(PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier@,System.Threading.Tasks.Task,System.Action{System.Threading.Tasks.Task},System.String)">
+            <summary>
+            Compares the current and new values for a given field (which should be the backing field for a property).
+            If the value has changed, updates the field and then raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
+            This method is just like <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetPropertyAndNotifyOnCompletion(PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier@,System.Threading.Tasks.Task,System.String)"/>,
+            with the difference being an extra <see cref = "T:System.Action`1"/> parameter with a callback being invoked
+            either immediately, if the new task has already completed or is <see langword="null"/>, or upon completion.
+            </summary>
+            <param name = "taskNotifier">The field notifier to modify.</param>
+            <param name = "newValue">The property's value after the change occurred.</param>
+            <param name = "callback">A callback to invoke to update the property value.</param>
+            <param name = "propertyName">(optional) The name of the property that changed.</param>
+            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
+            <remarks>
+            The <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are the same.
+            </remarks>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.SetPropertyAndNotifyOnCompletion``1(PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.String)">
+             <summary>
+             Compares the current and new values for a given field (which should be the backing field for a property).
+             If the value has changed, updates the field and then raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
+             The behavior mirrors that of <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0@,``0,System.String)"/>, with the difference being that
+             this method will also monitor the new value of the property (a generic <see cref = "T:System.Threading.Tasks.Task"/>) and will also
+             raise the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> again for the target property when it completes.
+             This can be used to update bindings observing that <see cref = "T:System.Threading.Tasks.Task"/> or any of its properties.
+             This method and its overload specifically rely on the <see cref = "T:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier`1"/> type, which needs
+             to be used in the backing field for the target <see cref = "T:System.Threading.Tasks.Task"/> property. The field doesn't need to be
+             initialized, as this method will take care of doing that automatically. The <see cref = "T:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier`1"/>
+             type also includes an implicit operator, so it can be assigned to any <see cref = "T:System.Threading.Tasks.Task"/> instance directly.
+             Here is a sample property declaration using this method:
+             <code>
+             private TaskNotifier&lt;int&gt; myTask;
+            
+             public Task&lt;int&gt; MyTask
+             {
+                 get => myTask;
+                 private set => SetAndNotifyOnCompletion(ref myTask, value);
+             }
+             </code>
+             </summary>
+             <typeparam name = "T">The type of result for the <see cref = "T:System.Threading.Tasks.Task`1"/> to set and monitor.</typeparam>
+             <param name = "taskNotifier">The field notifier to modify.</param>
+             <param name = "newValue">The property's value after the change occurred.</param>
+             <param name = "propertyName">(optional) The name of the property that changed.</param>
+             <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
+             <remarks>
+             The <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are
+             the same. The return value being <see langword="true"/> only indicates that the new value being assigned to
+             <paramref name = "taskNotifier"/> is different than the previous one, and it does not mean the new
+             <see cref = "T:System.Threading.Tasks.Task`1"/> instance passed as argument is in any particular state.
+             </remarks>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.SetPropertyAndNotifyOnCompletion``1(PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.Action{System.Threading.Tasks.Task{``0}},System.String)">
+            <summary>
+            Compares the current and new values for a given field (which should be the backing field for a property).
+            If the value has changed, updates the field and then raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
+            This method is just like <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetPropertyAndNotifyOnCompletion``1(PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.String)"/>,
+            with the difference being an extra <see cref = "T:System.Action`1"/> parameter with a callback being invoked
+            either immediately, if the new task has already completed or is <see langword="null"/>, or upon completion.
+            </summary>
+            <typeparam name = "T">The type of result for the <see cref = "T:System.Threading.Tasks.Task`1"/> to set and monitor.</typeparam>
+            <param name = "taskNotifier">The field notifier to modify.</param>
+            <param name = "newValue">The property's value after the change occurred.</param>
+            <param name = "callback">A callback to invoke to update the property value.</param>
+            <param name = "propertyName">(optional) The name of the property that changed.</param>
+            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
+            <remarks>
+            The <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are the same.
+            </remarks>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.SetPropertyAndNotifyOnCompletion``1(PointOfSale.Pages.Handheld.PayViewModel.ITaskNotifier{``0},``0,System.Action{``0},System.String)">
+            <summary>
+            Implements the notification logic for the related methods.
+            </summary>
+            <typeparam name = "TTask">The type of <see cref = "T:System.Threading.Tasks.Task"/> to set and monitor.</typeparam>
+            <param name = "taskNotifier">The field notifier.</param>
+            <param name = "newValue">The property's value after the change occurred.</param>
+            <param name = "callback">(optional) A callback to invoke to update the property value.</param>
+            <param name = "propertyName">(optional) The name of the property that changed.</param>
+            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
+        </member>
+        <member name="T:PointOfSale.Pages.Handheld.PayViewModel.ITaskNotifier`1">
+            <summary>
+            An interface for task notifiers of a specified type.
+            </summary>
+            <typeparam name = "TTask">The type of value to store.</typeparam>
+        </member>
+        <member name="P:PointOfSale.Pages.Handheld.PayViewModel.ITaskNotifier`1.Task">
+            <summary>
+            Gets or sets the wrapped <typeparamref name = "TTask"/> value.
+            </summary>
+        </member>
+        <member name="T:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier">
+            <summary>
+            A wrapping class that can hold a <see cref = "T:System.Threading.Tasks.Task"/> value.
+            </summary>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref = "T:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier"/> class.
+            </summary>
+        </member>
+        <member name="P:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier.PointOfSale#Pages#Handheld#PayViewModel#ITaskNotifier{System#Threading#Tasks#Task}#Task">
+            <inheritdoc/>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier.op_Implicit(PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier)~System.Threading.Tasks.Task">
+            <summary>
+            Unwraps the <see cref = "T:System.Threading.Tasks.Task"/> value stored in the current instance.
+            </summary>
+            <param name = "notifier">The input <see cref = "T:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier`1"/> instance.</param>
+        </member>
+        <member name="T:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier`1">
+            <summary>
+            A wrapping class that can hold a <see cref = "T:System.Threading.Tasks.Task`1"/> value.
+            </summary>
+            <typeparam name = "T">The type of value for the wrapped <see cref = "T:System.Threading.Tasks.Task`1"/> instance.</typeparam>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier`1.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref = "T:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier`1"/> class.
+            </summary>
+        </member>
+        <member name="P:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier`1.PointOfSale#Pages#Handheld#PayViewModel#ITaskNotifier{System#Threading#Tasks#Task{T}}#Task">
+            <inheritdoc/>
+        </member>
+        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier`1.op_Implicit(PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier{`0})~System.Threading.Tasks.Task{`0}">
+            <summary>
+            Unwraps the <see cref = "T:System.Threading.Tasks.Task`1"/> value stored in the current instance.
+            </summary>
+            <param name = "notifier">The input <see cref = "T:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier`1"/> instance.</param>
+        </member>
+        <member name="P:PointOfSale.Pages.Handheld.PayViewModel.Order">
+            <inheritdoc cref="F:PointOfSale.Pages.Handheld.PayViewModel.order"/>
+        </member>
+        <member name="F:PointOfSale.Pages.Handheld.PayViewModel.payCommand">
+            <summary>The backing field for <see cref="P:PointOfSale.Pages.Handheld.PayViewModel.PayCommand"/>.</summary>
+        </member>
+        <member name="P:PointOfSale.Pages.Handheld.PayViewModel.PayCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:PointOfSale.Pages.Handheld.PayViewModel.Pay"/>.</summary>
+        </member>
         <member name="E:PointOfSale.Pages.Handheld.OrderDetailsViewModel.PropertyChanged">
             <inheritdoc cref = "E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged"/>
         </member>
@@ -1656,331 +2312,6 @@
         <member name="P:PointOfSale.Pages.Handheld.OrdersViewModel.PayCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PointOfSale.Pages.Handheld.OrdersViewModel.Pay"/>.</summary>
         </member>
-        <member name="E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged">
-            <inheritdoc cref = "E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged"/>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)">
-            <summary>
-            Raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
-            </summary>
-            <param name = "e">The input <see cref = "T:System.ComponentModel.PropertyChangedEventArgs"/> instance.</param>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.OnPropertyChanged(System.String)">
-            <summary>
-            Raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
-            </summary>
-            <param name = "propertyName">(optional) The name of the property that changed.</param>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0@,``0,System.String)">
-            <summary>
-            Compares the current and new values for a given property. If the value has changed, updates
-            the property with the new value, then raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
-            </summary>
-            <typeparam name = "T">The type of the property that changed.</typeparam>
-            <param name = "field">The field storing the property's value.</param>
-            <param name = "newValue">The property's value after the change occurred.</param>
-            <param name = "propertyName">(optional) The name of the property that changed.</param>
-            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
-            <remarks>
-            The <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are the same.
-            </remarks>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0@,``0,System.Collections.Generic.IEqualityComparer{``0},System.String)">
-            <summary>
-            Compares the current and new values for a given property. If the value has changed, updates
-            the property with the new value, then raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
-            See additional notes about this overload in <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0@,``0,System.String)"/>.
-            </summary>
-            <typeparam name = "T">The type of the property that changed.</typeparam>
-            <param name = "field">The field storing the property's value.</param>
-            <param name = "newValue">The property's value after the change occurred.</param>
-            <param name = "comparer">The <see cref = "T:System.Collections.Generic.IEqualityComparer`1"/> instance to use to compare the input values.</param>
-            <param name = "propertyName">(optional) The name of the property that changed.</param>
-            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0,``0,System.Action{``0},System.String)">
-            <summary>
-            Compares the current and new values for a given property. If the value has changed, updates
-            the property with the new value, then raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
-            This overload is much less efficient than <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0@,``0,System.String)"/> and it
-            should only be used when the former is not viable (eg. when the target property being
-            updated does not directly expose a backing field that can be passed by reference).
-            For performance reasons, it is recommended to use a stateful callback if possible through
-            the <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.String)"/> whenever possible
-            instead of this overload, as that will allow the C# compiler to cache the input callback and
-            reduce the memory allocations. More info on that overload are available in the related XML
-            docs. This overload is here for completeness and in cases where that is not applicable.
-            </summary>
-            <typeparam name = "T">The type of the property that changed.</typeparam>
-            <param name = "oldValue">The current property value.</param>
-            <param name = "newValue">The property's value after the change occurred.</param>
-            <param name = "callback">A callback to invoke to update the property value.</param>
-            <param name = "propertyName">(optional) The name of the property that changed.</param>
-            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
-            <remarks>
-            The <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are the same.
-            </remarks>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Action{``0},System.String)">
-            <summary>
-            Compares the current and new values for a given property. If the value has changed, updates
-            the property with the new value, then raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
-            See additional notes about this overload in <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0,``0,System.Action{``0},System.String)"/>.
-            </summary>
-            <typeparam name = "T">The type of the property that changed.</typeparam>
-            <param name = "oldValue">The current property value.</param>
-            <param name = "newValue">The property's value after the change occurred.</param>
-            <param name = "comparer">The <see cref = "T:System.Collections.Generic.IEqualityComparer`1"/> instance to use to compare the input values.</param>
-            <param name = "callback">A callback to invoke to update the property value.</param>
-            <param name = "propertyName">(optional) The name of the property that changed.</param>
-            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.String)">
-             <summary>
-             Compares the current and new values for a given nested property. If the value has changed,
-             updates the property and then raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
-             The behavior mirrors that of <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0@,``0,System.String)"/>,
-             with the difference being that this method is used to relay properties from a wrapped model in the
-             current instance. This type is useful when creating wrapping, bindable objects that operate over
-             models that lack support for notification (eg. for CRUD operations).
-             Suppose we have this model (eg. for a database row in a table):
-             <code>
-             public class Person
-             {
-                 public string Name { get; set; }
-             }
-             </code>
-             We can then use a property to wrap instances of this type into our observable model (which supports
-             notifications), injecting the notification to the properties of that model, like so:
-             <code>
-             [INotifyPropertyChanged]
-             public partial class BindablePerson
-             {
-                 public Model { get; }
-            
-                 public BindablePerson(Person model)
-                 {
-                     Model = model;
-                 }
-            
-                 public string Name
-                 {
-                     get => Model.Name;
-                     set => Set(Model.Name, value, Model, (model, name) => model.Name = name);
-                 }
-             }
-             </code>
-             This way we can then use the wrapping object in our application, and all those "proxy" properties will
-             also raise notifications when changed. Note that this method is not meant to be a replacement for
-             <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0@,``0,System.String)"/>, and it should only be used when relaying properties to a model that
-             doesn't support notifications, and only if you can't implement notifications to that model directly (eg. by having
-             it implement <see cref = "T:System.ComponentModel.INotifyPropertyChanged"/>). The syntax relies on passing the target model and a stateless callback
-             to allow the C# compiler to cache the function, which results in much better performance and no memory usage.
-             </summary>
-             <typeparam name = "TModel">The type of model whose property (or field) to set.</typeparam>
-             <typeparam name = "T">The type of property (or field) to set.</typeparam>
-             <param name = "oldValue">The current property value.</param>
-             <param name = "newValue">The property's value after the change occurred.</param>
-             <param name = "model">The model containing the property being updated.</param>
-             <param name = "callback">The callback to invoke to set the target property value, if a change has occurred.</param>
-             <param name = "propertyName">(optional) The name of the property that changed.</param>
-             <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
-             <remarks>
-             The <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are the same.
-             </remarks>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``2(``1,``1,System.Collections.Generic.IEqualityComparer{``1},``0,System.Action{``0,``1},System.String)">
-            <summary>
-            Compares the current and new values for a given nested property. If the value has changed,
-            updates the property and then raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
-            The behavior mirrors that of <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0@,``0,System.String)"/>,
-            with the difference being that this method is used to relay properties from a wrapped model in the
-            current instance. See additional notes about this overload in <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.String)"/>.
-            </summary>
-            <typeparam name = "TModel">The type of model whose property (or field) to set.</typeparam>
-            <typeparam name = "T">The type of property (or field) to set.</typeparam>
-            <param name = "oldValue">The current property value.</param>
-            <param name = "newValue">The property's value after the change occurred.</param>
-            <param name = "comparer">The <see cref = "T:System.Collections.Generic.IEqualityComparer`1"/> instance to use to compare the input values.</param>
-            <param name = "model">The model containing the property being updated.</param>
-            <param name = "callback">The callback to invoke to set the target property value, if a change has occurred.</param>
-            <param name = "propertyName">(optional) The name of the property that changed.</param>
-            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.SetPropertyAndNotifyOnCompletion(PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier@,System.Threading.Tasks.Task,System.String)">
-             <summary>
-             Compares the current and new values for a given field (which should be the backing field for a property).
-             If the value has changed, updates the field and then raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
-             The behavior mirrors that of <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0@,``0,System.String)"/>, with the difference being that
-             this method will also monitor the new value of the property (a generic <see cref = "T:System.Threading.Tasks.Task"/>) and will also
-             raise the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> again for the target property when it completes.
-             This can be used to update bindings observing that <see cref = "T:System.Threading.Tasks.Task"/> or any of its properties.
-             This method and its overload specifically rely on the <see cref = "T:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier"/> type, which needs
-             to be used in the backing field for the target <see cref = "T:System.Threading.Tasks.Task"/> property. The field doesn't need to be
-             initialized, as this method will take care of doing that automatically. The <see cref = "T:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier"/>
-             type also includes an implicit operator, so it can be assigned to any <see cref = "T:System.Threading.Tasks.Task"/> instance directly.
-             Here is a sample property declaration using this method:
-             <code>
-             private TaskNotifier myTask;
-            
-             public Task MyTask
-             {
-                 get => myTask;
-                 private set => SetAndNotifyOnCompletion(ref myTask, value);
-             }
-             </code>
-             </summary>
-             <param name = "taskNotifier">The field notifier to modify.</param>
-             <param name = "newValue">The property's value after the change occurred.</param>
-             <param name = "propertyName">(optional) The name of the property that changed.</param>
-             <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
-             <remarks>
-             The <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are
-             the same. The return value being <see langword="true"/> only indicates that the new value being assigned to
-             <paramref name = "taskNotifier"/> is different than the previous one, and it does not mean the new
-             <see cref = "T:System.Threading.Tasks.Task"/> instance passed as argument is in any particular state.
-             </remarks>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.SetPropertyAndNotifyOnCompletion(PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier@,System.Threading.Tasks.Task,System.Action{System.Threading.Tasks.Task},System.String)">
-            <summary>
-            Compares the current and new values for a given field (which should be the backing field for a property).
-            If the value has changed, updates the field and then raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
-            This method is just like <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetPropertyAndNotifyOnCompletion(PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier@,System.Threading.Tasks.Task,System.String)"/>,
-            with the difference being an extra <see cref = "T:System.Action`1"/> parameter with a callback being invoked
-            either immediately, if the new task has already completed or is <see langword="null"/>, or upon completion.
-            </summary>
-            <param name = "taskNotifier">The field notifier to modify.</param>
-            <param name = "newValue">The property's value after the change occurred.</param>
-            <param name = "callback">A callback to invoke to update the property value.</param>
-            <param name = "propertyName">(optional) The name of the property that changed.</param>
-            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
-            <remarks>
-            The <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are the same.
-            </remarks>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.SetPropertyAndNotifyOnCompletion``1(PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.String)">
-             <summary>
-             Compares the current and new values for a given field (which should be the backing field for a property).
-             If the value has changed, updates the field and then raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
-             The behavior mirrors that of <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetProperty``1(``0@,``0,System.String)"/>, with the difference being that
-             this method will also monitor the new value of the property (a generic <see cref = "T:System.Threading.Tasks.Task"/>) and will also
-             raise the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> again for the target property when it completes.
-             This can be used to update bindings observing that <see cref = "T:System.Threading.Tasks.Task"/> or any of its properties.
-             This method and its overload specifically rely on the <see cref = "T:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier`1"/> type, which needs
-             to be used in the backing field for the target <see cref = "T:System.Threading.Tasks.Task"/> property. The field doesn't need to be
-             initialized, as this method will take care of doing that automatically. The <see cref = "T:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier`1"/>
-             type also includes an implicit operator, so it can be assigned to any <see cref = "T:System.Threading.Tasks.Task"/> instance directly.
-             Here is a sample property declaration using this method:
-             <code>
-             private TaskNotifier&lt;int&gt; myTask;
-            
-             public Task&lt;int&gt; MyTask
-             {
-                 get => myTask;
-                 private set => SetAndNotifyOnCompletion(ref myTask, value);
-             }
-             </code>
-             </summary>
-             <typeparam name = "T">The type of result for the <see cref = "T:System.Threading.Tasks.Task`1"/> to set and monitor.</typeparam>
-             <param name = "taskNotifier">The field notifier to modify.</param>
-             <param name = "newValue">The property's value after the change occurred.</param>
-             <param name = "propertyName">(optional) The name of the property that changed.</param>
-             <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
-             <remarks>
-             The <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are
-             the same. The return value being <see langword="true"/> only indicates that the new value being assigned to
-             <paramref name = "taskNotifier"/> is different than the previous one, and it does not mean the new
-             <see cref = "T:System.Threading.Tasks.Task`1"/> instance passed as argument is in any particular state.
-             </remarks>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.SetPropertyAndNotifyOnCompletion``1(PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.Action{System.Threading.Tasks.Task{``0}},System.String)">
-            <summary>
-            Compares the current and new values for a given field (which should be the backing field for a property).
-            If the value has changed, updates the field and then raises the <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event.
-            This method is just like <see cref = "M:PointOfSale.Pages.Handheld.PayViewModel.SetPropertyAndNotifyOnCompletion``1(PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.String)"/>,
-            with the difference being an extra <see cref = "T:System.Action`1"/> parameter with a callback being invoked
-            either immediately, if the new task has already completed or is <see langword="null"/>, or upon completion.
-            </summary>
-            <typeparam name = "T">The type of result for the <see cref = "T:System.Threading.Tasks.Task`1"/> to set and monitor.</typeparam>
-            <param name = "taskNotifier">The field notifier to modify.</param>
-            <param name = "newValue">The property's value after the change occurred.</param>
-            <param name = "callback">A callback to invoke to update the property value.</param>
-            <param name = "propertyName">(optional) The name of the property that changed.</param>
-            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
-            <remarks>
-            The <see cref = "E:PointOfSale.Pages.Handheld.PayViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are the same.
-            </remarks>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.SetPropertyAndNotifyOnCompletion``1(PointOfSale.Pages.Handheld.PayViewModel.ITaskNotifier{``0},``0,System.Action{``0},System.String)">
-            <summary>
-            Implements the notification logic for the related methods.
-            </summary>
-            <typeparam name = "TTask">The type of <see cref = "T:System.Threading.Tasks.Task"/> to set and monitor.</typeparam>
-            <param name = "taskNotifier">The field notifier.</param>
-            <param name = "newValue">The property's value after the change occurred.</param>
-            <param name = "callback">(optional) A callback to invoke to update the property value.</param>
-            <param name = "propertyName">(optional) The name of the property that changed.</param>
-            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
-        </member>
-        <member name="T:PointOfSale.Pages.Handheld.PayViewModel.ITaskNotifier`1">
-            <summary>
-            An interface for task notifiers of a specified type.
-            </summary>
-            <typeparam name = "TTask">The type of value to store.</typeparam>
-        </member>
-        <member name="P:PointOfSale.Pages.Handheld.PayViewModel.ITaskNotifier`1.Task">
-            <summary>
-            Gets or sets the wrapped <typeparamref name = "TTask"/> value.
-            </summary>
-        </member>
-        <member name="T:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier">
-            <summary>
-            A wrapping class that can hold a <see cref = "T:System.Threading.Tasks.Task"/> value.
-            </summary>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier.#ctor">
-            <summary>
-            Initializes a new instance of the <see cref = "T:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier"/> class.
-            </summary>
-        </member>
-        <member name="P:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier.PointOfSale#Pages#Handheld#PayViewModel#ITaskNotifier{System#Threading#Tasks#Task}#Task">
-            <inheritdoc/>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier.op_Implicit(PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier)~System.Threading.Tasks.Task">
-            <summary>
-            Unwraps the <see cref = "T:System.Threading.Tasks.Task"/> value stored in the current instance.
-            </summary>
-            <param name = "notifier">The input <see cref = "T:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier`1"/> instance.</param>
-        </member>
-        <member name="T:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier`1">
-            <summary>
-            A wrapping class that can hold a <see cref = "T:System.Threading.Tasks.Task`1"/> value.
-            </summary>
-            <typeparam name = "T">The type of value for the wrapped <see cref = "T:System.Threading.Tasks.Task`1"/> instance.</typeparam>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier`1.#ctor">
-            <summary>
-            Initializes a new instance of the <see cref = "T:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier`1"/> class.
-            </summary>
-        </member>
-        <member name="P:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier`1.PointOfSale#Pages#Handheld#PayViewModel#ITaskNotifier{System#Threading#Tasks#Task{T}}#Task">
-            <inheritdoc/>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier`1.op_Implicit(PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier{`0})~System.Threading.Tasks.Task{`0}">
-            <summary>
-            Unwraps the <see cref = "T:System.Threading.Tasks.Task`1"/> value stored in the current instance.
-            </summary>
-            <param name = "notifier">The input <see cref = "T:PointOfSale.Pages.Handheld.PayViewModel.TaskNotifier`1"/> instance.</param>
-        </member>
-        <member name="P:PointOfSale.Pages.Handheld.PayViewModel.Order">
-            <inheritdoc cref="F:PointOfSale.Pages.Handheld.PayViewModel.order"/>
-        </member>
-        <member name="F:PointOfSale.Pages.Handheld.PayViewModel.payCommand">
-            <summary>The backing field for <see cref="P:PointOfSale.Pages.Handheld.PayViewModel.PayCommand"/>.</summary>
-        </member>
-        <member name="P:PointOfSale.Pages.Handheld.PayViewModel.PayCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:PointOfSale.Pages.Handheld.PayViewModel.Pay"/>.</summary>
-        </member>
         <member name="E:PointOfSale.Pages.Handheld.ReceiptViewModel.PropertyChanged">
             <inheritdoc cref = "E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged"/>
         </member>
@@ -2636,337 +2967,6 @@
         </member>
         <member name="P:PointOfSale.Pages.Handheld.SignatureViewModel.ClearCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:PointOfSale.Pages.Handheld.SignatureViewModel.Clear"/>.</summary>
-        </member>
-        <member name="E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged">
-            <inheritdoc cref = "E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged"/>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)">
-            <summary>
-            Raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
-            </summary>
-            <param name = "e">The input <see cref = "T:System.ComponentModel.PropertyChangedEventArgs"/> instance.</param>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.OnPropertyChanged(System.String)">
-            <summary>
-            Raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
-            </summary>
-            <param name = "propertyName">(optional) The name of the property that changed.</param>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0@,``0,System.String)">
-            <summary>
-            Compares the current and new values for a given property. If the value has changed, updates
-            the property with the new value, then raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
-            </summary>
-            <typeparam name = "T">The type of the property that changed.</typeparam>
-            <param name = "field">The field storing the property's value.</param>
-            <param name = "newValue">The property's value after the change occurred.</param>
-            <param name = "propertyName">(optional) The name of the property that changed.</param>
-            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
-            <remarks>
-            The <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are the same.
-            </remarks>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0@,``0,System.Collections.Generic.IEqualityComparer{``0},System.String)">
-            <summary>
-            Compares the current and new values for a given property. If the value has changed, updates
-            the property with the new value, then raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
-            See additional notes about this overload in <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0@,``0,System.String)"/>.
-            </summary>
-            <typeparam name = "T">The type of the property that changed.</typeparam>
-            <param name = "field">The field storing the property's value.</param>
-            <param name = "newValue">The property's value after the change occurred.</param>
-            <param name = "comparer">The <see cref = "T:System.Collections.Generic.IEqualityComparer`1"/> instance to use to compare the input values.</param>
-            <param name = "propertyName">(optional) The name of the property that changed.</param>
-            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0,``0,System.Action{``0},System.String)">
-            <summary>
-            Compares the current and new values for a given property. If the value has changed, updates
-            the property with the new value, then raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
-            This overload is much less efficient than <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0@,``0,System.String)"/> and it
-            should only be used when the former is not viable (eg. when the target property being
-            updated does not directly expose a backing field that can be passed by reference).
-            For performance reasons, it is recommended to use a stateful callback if possible through
-            the <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.String)"/> whenever possible
-            instead of this overload, as that will allow the C# compiler to cache the input callback and
-            reduce the memory allocations. More info on that overload are available in the related XML
-            docs. This overload is here for completeness and in cases where that is not applicable.
-            </summary>
-            <typeparam name = "T">The type of the property that changed.</typeparam>
-            <param name = "oldValue">The current property value.</param>
-            <param name = "newValue">The property's value after the change occurred.</param>
-            <param name = "callback">A callback to invoke to update the property value.</param>
-            <param name = "propertyName">(optional) The name of the property that changed.</param>
-            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
-            <remarks>
-            The <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are the same.
-            </remarks>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Action{``0},System.String)">
-            <summary>
-            Compares the current and new values for a given property. If the value has changed, updates
-            the property with the new value, then raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
-            See additional notes about this overload in <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0,``0,System.Action{``0},System.String)"/>.
-            </summary>
-            <typeparam name = "T">The type of the property that changed.</typeparam>
-            <param name = "oldValue">The current property value.</param>
-            <param name = "newValue">The property's value after the change occurred.</param>
-            <param name = "comparer">The <see cref = "T:System.Collections.Generic.IEqualityComparer`1"/> instance to use to compare the input values.</param>
-            <param name = "callback">A callback to invoke to update the property value.</param>
-            <param name = "propertyName">(optional) The name of the property that changed.</param>
-            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.String)">
-             <summary>
-             Compares the current and new values for a given nested property. If the value has changed,
-             updates the property and then raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
-             The behavior mirrors that of <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0@,``0,System.String)"/>,
-             with the difference being that this method is used to relay properties from a wrapped model in the
-             current instance. This type is useful when creating wrapping, bindable objects that operate over
-             models that lack support for notification (eg. for CRUD operations).
-             Suppose we have this model (eg. for a database row in a table):
-             <code>
-             public class Person
-             {
-                 public string Name { get; set; }
-             }
-             </code>
-             We can then use a property to wrap instances of this type into our observable model (which supports
-             notifications), injecting the notification to the properties of that model, like so:
-             <code>
-             [INotifyPropertyChanged]
-             public partial class BindablePerson
-             {
-                 public Model { get; }
-            
-                 public BindablePerson(Person model)
-                 {
-                     Model = model;
-                 }
-            
-                 public string Name
-                 {
-                     get => Model.Name;
-                     set => Set(Model.Name, value, Model, (model, name) => model.Name = name);
-                 }
-             }
-             </code>
-             This way we can then use the wrapping object in our application, and all those "proxy" properties will
-             also raise notifications when changed. Note that this method is not meant to be a replacement for
-             <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0@,``0,System.String)"/>, and it should only be used when relaying properties to a model that
-             doesn't support notifications, and only if you can't implement notifications to that model directly (eg. by having
-             it implement <see cref = "T:System.ComponentModel.INotifyPropertyChanged"/>). The syntax relies on passing the target model and a stateless callback
-             to allow the C# compiler to cache the function, which results in much better performance and no memory usage.
-             </summary>
-             <typeparam name = "TModel">The type of model whose property (or field) to set.</typeparam>
-             <typeparam name = "T">The type of property (or field) to set.</typeparam>
-             <param name = "oldValue">The current property value.</param>
-             <param name = "newValue">The property's value after the change occurred.</param>
-             <param name = "model">The model containing the property being updated.</param>
-             <param name = "callback">The callback to invoke to set the target property value, if a change has occurred.</param>
-             <param name = "propertyName">(optional) The name of the property that changed.</param>
-             <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
-             <remarks>
-             The <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are the same.
-             </remarks>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``2(``1,``1,System.Collections.Generic.IEqualityComparer{``1},``0,System.Action{``0,``1},System.String)">
-            <summary>
-            Compares the current and new values for a given nested property. If the value has changed,
-            updates the property and then raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
-            The behavior mirrors that of <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0@,``0,System.String)"/>,
-            with the difference being that this method is used to relay properties from a wrapped model in the
-            current instance. See additional notes about this overload in <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``2(``1,``1,``0,System.Action{``0,``1},System.String)"/>.
-            </summary>
-            <typeparam name = "TModel">The type of model whose property (or field) to set.</typeparam>
-            <typeparam name = "T">The type of property (or field) to set.</typeparam>
-            <param name = "oldValue">The current property value.</param>
-            <param name = "newValue">The property's value after the change occurred.</param>
-            <param name = "comparer">The <see cref = "T:System.Collections.Generic.IEqualityComparer`1"/> instance to use to compare the input values.</param>
-            <param name = "model">The model containing the property being updated.</param>
-            <param name = "callback">The callback to invoke to set the target property value, if a change has occurred.</param>
-            <param name = "propertyName">(optional) The name of the property that changed.</param>
-            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.SetPropertyAndNotifyOnCompletion(PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier@,System.Threading.Tasks.Task,System.String)">
-             <summary>
-             Compares the current and new values for a given field (which should be the backing field for a property).
-             If the value has changed, updates the field and then raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
-             The behavior mirrors that of <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0@,``0,System.String)"/>, with the difference being that
-             this method will also monitor the new value of the property (a generic <see cref = "T:System.Threading.Tasks.Task"/>) and will also
-             raise the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> again for the target property when it completes.
-             This can be used to update bindings observing that <see cref = "T:System.Threading.Tasks.Task"/> or any of its properties.
-             This method and its overload specifically rely on the <see cref = "T:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier"/> type, which needs
-             to be used in the backing field for the target <see cref = "T:System.Threading.Tasks.Task"/> property. The field doesn't need to be
-             initialized, as this method will take care of doing that automatically. The <see cref = "T:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier"/>
-             type also includes an implicit operator, so it can be assigned to any <see cref = "T:System.Threading.Tasks.Task"/> instance directly.
-             Here is a sample property declaration using this method:
-             <code>
-             private TaskNotifier myTask;
-            
-             public Task MyTask
-             {
-                 get => myTask;
-                 private set => SetAndNotifyOnCompletion(ref myTask, value);
-             }
-             </code>
-             </summary>
-             <param name = "taskNotifier">The field notifier to modify.</param>
-             <param name = "newValue">The property's value after the change occurred.</param>
-             <param name = "propertyName">(optional) The name of the property that changed.</param>
-             <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
-             <remarks>
-             The <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are
-             the same. The return value being <see langword="true"/> only indicates that the new value being assigned to
-             <paramref name = "taskNotifier"/> is different than the previous one, and it does not mean the new
-             <see cref = "T:System.Threading.Tasks.Task"/> instance passed as argument is in any particular state.
-             </remarks>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.SetPropertyAndNotifyOnCompletion(PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier@,System.Threading.Tasks.Task,System.Action{System.Threading.Tasks.Task},System.String)">
-            <summary>
-            Compares the current and new values for a given field (which should be the backing field for a property).
-            If the value has changed, updates the field and then raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
-            This method is just like <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetPropertyAndNotifyOnCompletion(PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier@,System.Threading.Tasks.Task,System.String)"/>,
-            with the difference being an extra <see cref = "T:System.Action`1"/> parameter with a callback being invoked
-            either immediately, if the new task has already completed or is <see langword="null"/>, or upon completion.
-            </summary>
-            <param name = "taskNotifier">The field notifier to modify.</param>
-            <param name = "newValue">The property's value after the change occurred.</param>
-            <param name = "callback">A callback to invoke to update the property value.</param>
-            <param name = "propertyName">(optional) The name of the property that changed.</param>
-            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
-            <remarks>
-            The <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are the same.
-            </remarks>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.SetPropertyAndNotifyOnCompletion``1(PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.String)">
-             <summary>
-             Compares the current and new values for a given field (which should be the backing field for a property).
-             If the value has changed, updates the field and then raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
-             The behavior mirrors that of <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetProperty``1(``0@,``0,System.String)"/>, with the difference being that
-             this method will also monitor the new value of the property (a generic <see cref = "T:System.Threading.Tasks.Task"/>) and will also
-             raise the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> again for the target property when it completes.
-             This can be used to update bindings observing that <see cref = "T:System.Threading.Tasks.Task"/> or any of its properties.
-             This method and its overload specifically rely on the <see cref = "T:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier`1"/> type, which needs
-             to be used in the backing field for the target <see cref = "T:System.Threading.Tasks.Task"/> property. The field doesn't need to be
-             initialized, as this method will take care of doing that automatically. The <see cref = "T:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier`1"/>
-             type also includes an implicit operator, so it can be assigned to any <see cref = "T:System.Threading.Tasks.Task"/> instance directly.
-             Here is a sample property declaration using this method:
-             <code>
-             private TaskNotifier&lt;int&gt; myTask;
-            
-             public Task&lt;int&gt; MyTask
-             {
-                 get => myTask;
-                 private set => SetAndNotifyOnCompletion(ref myTask, value);
-             }
-             </code>
-             </summary>
-             <typeparam name = "T">The type of result for the <see cref = "T:System.Threading.Tasks.Task`1"/> to set and monitor.</typeparam>
-             <param name = "taskNotifier">The field notifier to modify.</param>
-             <param name = "newValue">The property's value after the change occurred.</param>
-             <param name = "propertyName">(optional) The name of the property that changed.</param>
-             <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
-             <remarks>
-             The <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are
-             the same. The return value being <see langword="true"/> only indicates that the new value being assigned to
-             <paramref name = "taskNotifier"/> is different than the previous one, and it does not mean the new
-             <see cref = "T:System.Threading.Tasks.Task`1"/> instance passed as argument is in any particular state.
-             </remarks>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.SetPropertyAndNotifyOnCompletion``1(PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.Action{System.Threading.Tasks.Task{``0}},System.String)">
-            <summary>
-            Compares the current and new values for a given field (which should be the backing field for a property).
-            If the value has changed, updates the field and then raises the <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event.
-            This method is just like <see cref = "M:PointOfSale.Pages.Handheld.TipViewModel.SetPropertyAndNotifyOnCompletion``1(PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier{``0}@,System.Threading.Tasks.Task{``0},System.String)"/>,
-            with the difference being an extra <see cref = "T:System.Action`1"/> parameter with a callback being invoked
-            either immediately, if the new task has already completed or is <see langword="null"/>, or upon completion.
-            </summary>
-            <typeparam name = "T">The type of result for the <see cref = "T:System.Threading.Tasks.Task`1"/> to set and monitor.</typeparam>
-            <param name = "taskNotifier">The field notifier to modify.</param>
-            <param name = "newValue">The property's value after the change occurred.</param>
-            <param name = "callback">A callback to invoke to update the property value.</param>
-            <param name = "propertyName">(optional) The name of the property that changed.</param>
-            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
-            <remarks>
-            The <see cref = "E:PointOfSale.Pages.Handheld.TipViewModel.PropertyChanged"/> event is not raised if the current and new value for the target property are the same.
-            </remarks>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.SetPropertyAndNotifyOnCompletion``1(PointOfSale.Pages.Handheld.TipViewModel.ITaskNotifier{``0},``0,System.Action{``0},System.String)">
-            <summary>
-            Implements the notification logic for the related methods.
-            </summary>
-            <typeparam name = "TTask">The type of <see cref = "T:System.Threading.Tasks.Task"/> to set and monitor.</typeparam>
-            <param name = "taskNotifier">The field notifier.</param>
-            <param name = "newValue">The property's value after the change occurred.</param>
-            <param name = "callback">(optional) A callback to invoke to update the property value.</param>
-            <param name = "propertyName">(optional) The name of the property that changed.</param>
-            <returns><see langword="true"/> if the property was changed, <see langword="false"/> otherwise.</returns>
-        </member>
-        <member name="T:PointOfSale.Pages.Handheld.TipViewModel.ITaskNotifier`1">
-            <summary>
-            An interface for task notifiers of a specified type.
-            </summary>
-            <typeparam name = "TTask">The type of value to store.</typeparam>
-        </member>
-        <member name="P:PointOfSale.Pages.Handheld.TipViewModel.ITaskNotifier`1.Task">
-            <summary>
-            Gets or sets the wrapped <typeparamref name = "TTask"/> value.
-            </summary>
-        </member>
-        <member name="T:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier">
-            <summary>
-            A wrapping class that can hold a <see cref = "T:System.Threading.Tasks.Task"/> value.
-            </summary>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier.#ctor">
-            <summary>
-            Initializes a new instance of the <see cref = "T:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier"/> class.
-            </summary>
-        </member>
-        <member name="P:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier.PointOfSale#Pages#Handheld#TipViewModel#ITaskNotifier{System#Threading#Tasks#Task}#Task">
-            <inheritdoc/>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier.op_Implicit(PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier)~System.Threading.Tasks.Task">
-            <summary>
-            Unwraps the <see cref = "T:System.Threading.Tasks.Task"/> value stored in the current instance.
-            </summary>
-            <param name = "notifier">The input <see cref = "T:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier`1"/> instance.</param>
-        </member>
-        <member name="T:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier`1">
-            <summary>
-            A wrapping class that can hold a <see cref = "T:System.Threading.Tasks.Task`1"/> value.
-            </summary>
-            <typeparam name = "T">The type of value for the wrapped <see cref = "T:System.Threading.Tasks.Task`1"/> instance.</typeparam>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier`1.#ctor">
-            <summary>
-            Initializes a new instance of the <see cref = "T:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier`1"/> class.
-            </summary>
-        </member>
-        <member name="P:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier`1.PointOfSale#Pages#Handheld#TipViewModel#ITaskNotifier{System#Threading#Tasks#Task{T}}#Task">
-            <inheritdoc/>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier`1.op_Implicit(PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier{`0})~System.Threading.Tasks.Task{`0}">
-            <summary>
-            Unwraps the <see cref = "T:System.Threading.Tasks.Task`1"/> value stored in the current instance.
-            </summary>
-            <param name = "notifier">The input <see cref = "T:PointOfSale.Pages.Handheld.TipViewModel.TaskNotifier`1"/> instance.</param>
-        </member>
-        <member name="P:PointOfSale.Pages.Handheld.TipViewModel.Order">
-            <inheritdoc cref="F:PointOfSale.Pages.Handheld.TipViewModel.order"/>
-        </member>
-        <member name="P:PointOfSale.Pages.Handheld.TipViewModel.Tip">
-            <inheritdoc cref="F:PointOfSale.Pages.Handheld.TipViewModel.tip"/>
-        </member>
-        <member name="M:PointOfSale.Pages.Handheld.TipViewModel.OnTipChanged(System.Double)">
-            <summary>Executes the logic for when <see cref="P:PointOfSale.Pages.Handheld.TipViewModel.Tip"/> just changed.</summary>
-        </member>
-        <member name="F:PointOfSale.Pages.Handheld.TipViewModel.continueCommand">
-            <summary>The backing field for <see cref="P:PointOfSale.Pages.Handheld.TipViewModel.ContinueCommand"/>.</summary>
-        </member>
-        <member name="P:PointOfSale.Pages.Handheld.TipViewModel.ContinueCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:PointOfSale.Pages.Handheld.TipViewModel.Continue"/>.</summary>
         </member>
         <member name="E:PointOfSale.Pages.HomeViewModel.PropertyChanged">
             <inheritdoc cref = "E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged"/>
