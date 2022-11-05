@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Josh\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.3.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\Josh\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(TargetFramework)' == '' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\buildMultiTargeting\Ril.BlazorSignatureCanvas.props" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\buildMultiTargeting\Ril.BlazorSignatureCanvas.props')" />
+  </ImportGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net6.0-android' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\StaticAssets\package-lock.json" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\StaticAssets\package-lock.json')">
+      <NuGetPackageId>Ril.BlazorSignatureCanvas</NuGetPackageId>
+      <NuGetPackageVersion>0.1.0-alpha</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>StaticAssets\package-lock.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\StaticAssets\package.json" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\StaticAssets\package.json')">
+      <NuGetPackageId>Ril.BlazorSignatureCanvas</NuGetPackageId>
+      <NuGetPackageVersion>0.1.0-alpha</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>StaticAssets\package.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\StaticAssets\tsconfig.json" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\StaticAssets\tsconfig.json')">
+      <NuGetPackageId>Ril.BlazorSignatureCanvas</NuGetPackageId>
+      <NuGetPackageVersion>0.1.0-alpha</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>StaticAssets\tsconfig.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\BlazorSignatureCanvas.js" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\BlazorSignatureCanvas.js')">
+      <NuGetPackageId>Ril.BlazorSignatureCanvas</NuGetPackageId>
+      <NuGetPackageVersion>0.1.0-alpha</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>wwwroot\BlazorSignatureCanvas.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\BlazorSignatureCanvas.js.map" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\BlazorSignatureCanvas.js.map')">
+      <NuGetPackageId>Ril.BlazorSignatureCanvas</NuGetPackageId>
+      <NuGetPackageVersion>0.1.0-alpha</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>wwwroot\BlazorSignatureCanvas.js.map</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\background.png" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\background.png')">
+      <NuGetPackageId>Ril.BlazorSignatureCanvas</NuGetPackageId>
+      <NuGetPackageVersion>0.1.0-alpha</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>wwwroot\background.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\exampleJsInterop.js" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\exampleJsInterop.js')">
+      <NuGetPackageId>Ril.BlazorSignatureCanvas</NuGetPackageId>
+      <NuGetPackageVersion>0.1.0-alpha</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>wwwroot\exampleJsInterop.js</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net6.0-ios' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\StaticAssets\package-lock.json" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\StaticAssets\package-lock.json')">
+      <NuGetPackageId>Ril.BlazorSignatureCanvas</NuGetPackageId>
+      <NuGetPackageVersion>0.1.0-alpha</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>StaticAssets\package-lock.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\StaticAssets\package.json" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\StaticAssets\package.json')">
+      <NuGetPackageId>Ril.BlazorSignatureCanvas</NuGetPackageId>
+      <NuGetPackageVersion>0.1.0-alpha</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>StaticAssets\package.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\StaticAssets\tsconfig.json" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\StaticAssets\tsconfig.json')">
+      <NuGetPackageId>Ril.BlazorSignatureCanvas</NuGetPackageId>
+      <NuGetPackageVersion>0.1.0-alpha</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>StaticAssets\tsconfig.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\BlazorSignatureCanvas.js" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\BlazorSignatureCanvas.js')">
+      <NuGetPackageId>Ril.BlazorSignatureCanvas</NuGetPackageId>
+      <NuGetPackageVersion>0.1.0-alpha</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>wwwroot\BlazorSignatureCanvas.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\BlazorSignatureCanvas.js.map" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\BlazorSignatureCanvas.js.map')">
+      <NuGetPackageId>Ril.BlazorSignatureCanvas</NuGetPackageId>
+      <NuGetPackageVersion>0.1.0-alpha</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>wwwroot\BlazorSignatureCanvas.js.map</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\background.png" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\background.png')">
+      <NuGetPackageId>Ril.BlazorSignatureCanvas</NuGetPackageId>
+      <NuGetPackageVersion>0.1.0-alpha</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>wwwroot\background.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\exampleJsInterop.js" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\exampleJsInterop.js')">
+      <NuGetPackageId>Ril.BlazorSignatureCanvas</NuGetPackageId>
+      <NuGetPackageVersion>0.1.0-alpha</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>wwwroot\exampleJsInterop.js</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net6.0-maccatalyst' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\StaticAssets\package-lock.json" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\StaticAssets\package-lock.json')">
+      <NuGetPackageId>Ril.BlazorSignatureCanvas</NuGetPackageId>
+      <NuGetPackageVersion>0.1.0-alpha</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>StaticAssets\package-lock.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\StaticAssets\package.json" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\StaticAssets\package.json')">
+      <NuGetPackageId>Ril.BlazorSignatureCanvas</NuGetPackageId>
+      <NuGetPackageVersion>0.1.0-alpha</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>StaticAssets\package.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\StaticAssets\tsconfig.json" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\StaticAssets\tsconfig.json')">
+      <NuGetPackageId>Ril.BlazorSignatureCanvas</NuGetPackageId>
+      <NuGetPackageVersion>0.1.0-alpha</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>StaticAssets\tsconfig.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\BlazorSignatureCanvas.js" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\BlazorSignatureCanvas.js')">
+      <NuGetPackageId>Ril.BlazorSignatureCanvas</NuGetPackageId>
+      <NuGetPackageVersion>0.1.0-alpha</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>wwwroot\BlazorSignatureCanvas.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\BlazorSignatureCanvas.js.map" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\BlazorSignatureCanvas.js.map')">
+      <NuGetPackageId>Ril.BlazorSignatureCanvas</NuGetPackageId>
+      <NuGetPackageVersion>0.1.0-alpha</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>wwwroot\BlazorSignatureCanvas.js.map</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\background.png" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\background.png')">
+      <NuGetPackageId>Ril.BlazorSignatureCanvas</NuGetPackageId>
+      <NuGetPackageVersion>0.1.0-alpha</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>wwwroot\background.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\exampleJsInterop.js" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\wwwroot\exampleJsInterop.js')">
+      <NuGetPackageId>Ril.BlazorSignatureCanvas</NuGetPackageId>
+      <NuGetPackageVersion>0.1.0-alpha</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>wwwroot\exampleJsInterop.js</Link>
+    </Content>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(TargetFramework)' == 'net6.0-android' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\buildTransitive\Ril.BlazorSignatureCanvas.props" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\buildTransitive\Ril.BlazorSignatureCanvas.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\6.0.541\build\Microsoft.AspNetCore.Components.WebView.Maui.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\6.0.541\build\Microsoft.AspNetCore.Components.WebView.Maui.props')" />
+  </ImportGroup>
+  <ImportGroup Condition=" '$(TargetFramework)' == 'net6.0-ios' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\buildTransitive\Ril.BlazorSignatureCanvas.props" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\buildTransitive\Ril.BlazorSignatureCanvas.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\6.0.541\build\Microsoft.AspNetCore.Components.WebView.Maui.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\6.0.541\build\Microsoft.AspNetCore.Components.WebView.Maui.props')" />
+  </ImportGroup>
+  <ImportGroup Condition=" '$(TargetFramework)' == 'net6.0-maccatalyst' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\buildTransitive\Ril.BlazorSignatureCanvas.props" Condition="Exists('$(NuGetPackageRoot)ril.blazorsignaturecanvas\0.1.0-alpha\buildTransitive\Ril.BlazorSignatureCanvas.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\6.0.541\build\Microsoft.AspNetCore.Components.WebView.Maui.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\6.0.541\build\Microsoft.AspNetCore.Components.WebView.Maui.props')" />
+  </ImportGroup>
+</Project>

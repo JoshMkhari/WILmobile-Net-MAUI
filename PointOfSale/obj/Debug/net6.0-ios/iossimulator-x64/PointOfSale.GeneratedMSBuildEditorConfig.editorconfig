@@ -1,0 +1,198 @@
+is_global = true
+build_property.TargetFramework = net6.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PointOfSale
+build_property.RootNamespace = PointOfSale
+build_property.ProjectDir = D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/AppShellMobile.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.AppShellMobile.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShellMobile.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShellMobile.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Pages/DashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Pages.DashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\DashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\DashboardPage.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Pages/EmptyPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Pages.EmptyPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\EmptyPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\EmptyPage.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Pages/Handheld/OrderDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Pages.Handheld.OrderDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Handheld\OrderDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Handheld\OrderDetailsPage.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Pages/Handheld/OrdersPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Pages.Handheld.OrdersPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Handheld\OrdersPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Handheld\OrdersPage.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Pages/Handheld/PayPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Pages.Handheld.PayPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Handheld\PayPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Handheld\PayPage.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Pages/Handheld/ReceiptPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Pages.Handheld.ReceiptPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Handheld\ReceiptPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Handheld\ReceiptPage.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Pages/Handheld/ScanPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Pages.Handheld.ScanPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Handheld\ScanPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Handheld\ScanPage.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Pages/Handheld/SignaturePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Pages.Handheld.SignaturePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Handheld\SignaturePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Handheld\SignaturePage.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Pages/Handheld/TipPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Pages.Handheld.TipPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Handheld\TipPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Handheld\TipPage.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Pages/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Pages.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\HomePage.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Pages/SettingsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Pages.SettingsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SettingsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SettingsPage.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Pages/Views/AddProductView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Pages.Views.AddProductView.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Views\AddProductView.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Views\AddProductView.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Pages/Views/FlyoutButtonView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Pages.Views.FlyoutButtonView.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Views\FlyoutButtonView.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Views\FlyoutButtonView.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Pages/Views/OrderCartView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Pages.Views.OrderCartView.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Views\OrderCartView.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Views\OrderCartView.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Resources/Styles/ControlTemplates.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Resources.Styles.ControlTemplates.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\ControlTemplates.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\ControlTemplates.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Resources/Styles/Converters.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Resources.Styles.Converters.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Converters.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Converters.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Resources/Styles/Data.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Resources.Styles.Data.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Data.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Data.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Shared/MainLayout.razor.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Shared.MainLayout.razor.css
+build_metadata.AdditionalFiles.TargetPath = Shared\MainLayout.razor.css
+build_metadata.AdditionalFiles.RelativePath = Shared\MainLayout.razor.css
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Main.razor]
+build_metadata.AdditionalFiles.GenKind = 
+build_metadata.AdditionalFiles.ManifestResourceName = 
+build_metadata.AdditionalFiles.TargetPath = TWFpbi5yYXpvcg==
+build_metadata.AdditionalFiles.RelativePath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.GenKind = 
+build_metadata.AdditionalFiles.ManifestResourceName = 
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.RelativePath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/_Imports.razor]
+build_metadata.AdditionalFiles.GenKind = 
+build_metadata.AdditionalFiles.ManifestResourceName = 
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.RelativePath = 
+build_metadata.AdditionalFiles.CssScope = 
