@@ -14,9 +14,16 @@
     <Grid RowDefinitions="120, *, 66" Margin="20">
         <VerticalStackLayout VerticalOptions="Center" Spacing="8">
             <Label Text="Pet Details" Style="{StaticResource LargeTitle}"/>
+            <Image 
+                   Source="{Binding Path=Order.Items[0].Image,  
+                   FallbackValue=food_01.png}" 
+                   HorizontalOptions="End" 
+                   Aspect="AspectFill"
+                   WidthRequest="70"
+                   HeightRequest="70"/>
             <BoxView Style="{StaticResource HRule}"/>
         </VerticalStackLayout>
-
+        
         <CollectionView Grid.Row="1" ItemsSource="{Binding Order.Items}">
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="models:Item">
