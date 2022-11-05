@@ -8,7 +8,7 @@ public partial class HomeViewModel
     ObservableCollection<Item> _products;
 
     [ObservableProperty]
-    string category = ItemCategory.Noodles.ToString();
+    string category = ItemCategory.Cats.ToString();
 
     partial void OnCategoryChanged(string cat)
     {
@@ -22,7 +22,7 @@ public partial class HomeViewModel
     public HomeViewModel()
     {
         _products = new ObservableCollection<Item>(
-            AppData.Items.Where(x=>x.Category == ItemCategory.Noodles).ToList()
+            AppData.Items.Where(x=>x.Category == ItemCategory.Cats).ToList()
         );
     }
 

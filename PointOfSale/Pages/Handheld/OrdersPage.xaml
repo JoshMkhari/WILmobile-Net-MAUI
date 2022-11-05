@@ -27,12 +27,13 @@
                             <TapGestureRecognizer Command="{Binding PayCommand}"/>
                         </Grid.GestureRecognizers>
                         <Border Stroke="Transparent" StrokeThickness="1" VerticalOptions="Center" HorizontalOptions="Start"
-                                HeightRequest="60" WidthRequest="60" Background="{x:Static models:Order.RandomBrush}">
+                                HeightRequest="60" WidthRequest="60">
                             <Border.StrokeShape>
                                 <Ellipse Frame="0,0,60,60"  />
                             </Border.StrokeShape>
                             <Grid>
-                                <Label Text="{Binding Table}" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center"/>
+                                <Image
+                                    Source="{Binding Items[0].Image, FallbackValue=food_01.png}" HorizontalOptions="Center" Aspect="AspectFill"/>
                             </Grid>
                         </Border>
 

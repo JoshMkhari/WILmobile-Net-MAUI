@@ -102,7 +102,7 @@
                        VerticalOptions="Center"
                        />
                 <Entry Background="Transparent"
-                       Placeholder="Search for food, coffee, etc."
+                       Placeholder="Search for Dogs, cats, etc."
                        PlaceholderColor="{StaticResource TextSecondary}"
                        TextColor="White"
                        VerticalOptions="Center"
@@ -122,16 +122,14 @@
             />
             <HorizontalStackLayout Spacing="20"
                                RadioButtonGroup.GroupName="MenuCategories"
-                               RadioButtonGroup.SelectedValue="{Binding Category}"
-                                   
-                                   >
+                               RadioButtonGroup.SelectedValue="{Binding Category}">
                 <BindableLayout.ItemsSource>
                         <x:Array Type="{x:Type x:String}">
-                            <x:String>Noodles</x:String>
-                            <x:String>Rice</x:String>
-                            <x:String>Appetizers</x:String>
-                            <x:String>Desserts</x:String>
-                            <x:String>Beverages</x:String>
+                            <x:String>Cats</x:String>
+                            <x:String>Dogs</x:String>
+                            <x:String>Birds</x:String>
+                            <x:String>Amphibian</x:String>
+                            <x:String>Reptiles</x:String>
                         </x:Array>
                     </BindableLayout.ItemsSource>
                 <BindableLayout.ItemTemplate>

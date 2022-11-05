@@ -8,16 +8,16 @@ public static class AppData
 
     public static List<Item> Items = new List<Item>
     {
-        new Item(){ Title = "Burmese Cat", Price    = 13.99, Quantity = 1, Image = "japchae.png", Category = ItemCategory.Noodles},
-        new Item(){ Title = "Dachshund Dog", Price = 14.99, Quantity = 1, Image = "jajangmyeon.png", Category = ItemCategory.Noodles},
-        new Item(){ Title = "Chartreux Cat", Price = 12.99, Quantity = 1, Image = "janchi_guksu.png", Category = ItemCategory.Noodles},
-        new Item(){ Title = "Coton de Tulear Dog", Price = 14.99, Quantity = 1, Image = "budae_jjigae.png", Category = ItemCategory.Noodles},
-        new Item(){ Title = "Scottish Fold Cat", Price = 12.99, Quantity = 1, Image = "naengmyeon.png", Category = ItemCategory.Noodles},
-        new Item(){ Title = "Belgian Shepherd Dog", Price = 2.50, Quantity = 1, Category = ItemCategory.Beverages, Image = "soda.png"},
-        new Item(){ Title = "Siamese Cat", Price = 3.50, Quantity = 1, Category = ItemCategory.Beverages, Image = "iced_tea.png"},
-        new Item(){ Title = "Curly Coated Retriever ", Price = 4.00, Quantity = 1, Category = ItemCategory.Beverages, Image = "tea.png"},
-        new Item(){ Title = "Toyger Cat", Price = 4.00, Quantity = 1, Category = ItemCategory.Beverages, Image = "coffee.png"},
-        new Item(){ Title = "Abyssinian Cat", Price = 5.00, Quantity = 1, Category = ItemCategory.Beverages, Image = "milk.png"},
+        new Item(){ Title = "Burmese Cat", Price    = 13.99, Quantity = 1, Image = "burmese.png", Category = ItemCategory.Cats},
+        new Item(){ Title = "Dachshund Dog", Price = 14.99, Quantity = 1, Image = "dachshmund.jpg", Category = ItemCategory.Dogs},
+        new Item(){ Title = "Chartreux Cat", Price = 12.99, Quantity = 1, Image = "chartreux.png", Category = ItemCategory.Cats},
+        new Item(){ Title = "Coton de Tulear Dog", Price = 14.99, Quantity = 1, Image = "cotton.png", Category = ItemCategory.Dogs},
+        new Item(){ Title = "Scottish Fold Cat", Price = 12.99, Quantity = 1, Image = "schottish.png", Category = ItemCategory.Cats},
+        new Item(){ Title = "Belgian Shepherd Dog", Price = 2.50, Quantity = 1, Category = ItemCategory.Dogs, Image = "belgian.jpg"},
+        new Item(){ Title = "Siamese Cat", Price = 3.50, Quantity = 1, Category = ItemCategory.Cats, Image = "siamese.png"},
+        new Item(){ Title = "Curly Coated Retriever ", Price = 4.00, Quantity = 1, Category = ItemCategory.Dogs, Image = "curly.jpg"},
+        new Item(){ Title = "Toyger Cat", Price = 4.00, Quantity = 1, Category = ItemCategory.Cats, Image = "toyger.png"},
+        new Item(){ Title = "Abyssinian Cat", Price = 5.00, Quantity = 1, Category = ItemCategory.Cats, Image = "abyssinian.png"},
     };
     
     public static List<Order> Orders { get; set; } = GenerateOrders();

@@ -66,6 +66,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\Abyssinian.png" />
+	  <None Remove="Resources\Images\belgian.jpg" />
+	  <None Remove="Resources\Images\Burmese.png" />
+	  <None Remove="Resources\Images\chartreux.png" />
+	  <None Remove="Resources\Images\cotton.png" />
+	  <None Remove="Resources\Images\curly.jpg" />
+	  <None Remove="Resources\Images\dachshmund.jpg" />
+	  <None Remove="Resources\Images\Schottish.png" />
+	  <None Remove="Resources\Images\Siamese.png" />
+	  <None Remove="Resources\Images\Toyger.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <PackageReference Include="CommunityToolkit.Maui" Version="1.2.0" />
 	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0" />
 	  <PackageReference Include="Microcharts" Version="0.9.5.9" />
