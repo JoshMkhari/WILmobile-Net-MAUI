@@ -113,11 +113,11 @@ build_metadata.AdditionalFiles.TargetPath = Pages\SettingsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\SettingsPage.xaml
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Pages/Views/AddProductView.xaml]
+[D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Pages/Views/AddPetView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Pages.Views.AddProductView.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\Views\AddProductView.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\Views\AddProductView.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Pages.Views.AddPetView.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Views\AddPetView.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Views\AddPetView.xaml
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/maui-samples-main/6.0/Apps/PointOfSale/src/PointOfSale/Pages/Views/FlyoutButtonView.xaml]

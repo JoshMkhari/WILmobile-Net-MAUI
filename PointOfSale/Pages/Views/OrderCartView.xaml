@@ -26,15 +26,13 @@
                         </Style>
 
                     </HorizontalStackLayout.Resources>
-                    <RadioButton Content="Dine In" IsChecked="True"/>
-                    <RadioButton Content="Carry Out"/>
+                    <RadioButton Content="Visit Midrand" IsChecked="True"/>
                     <RadioButton Content="Delivery"/>
                 </HorizontalStackLayout>
 
-                <Grid ColumnDefinitions="60*,20*,20*">
-                        <Label Text="Item" Style="{StaticResource Headline}"/>
-                        <Label Text="Qty" Style="{StaticResource Headline}" Grid.Column="1"/>
-                        <Label Text="Price" Style="{StaticResource Headline}" Grid.Column="2"/>
+                <Grid ColumnDefinitions="60*,20*">
+                    <Label Text="Pet" Style="{StaticResource Headline}"/>
+                    <Label Text="Price" Style="{StaticResource Headline}" Grid.Column="1"/>
                     </Grid>
                     <BoxView Style="{StaticResource HRule}"/>
 
@@ -58,27 +56,6 @@
                                         </Label.FormattedText>
                                     </Label>
                                 </HorizontalStackLayout>
-
-                                <Border
-                                    Grid.Column="1"
-                                    HeightRequest="44"
-                                    WidthRequest="44"
-                                    Background="{StaticResource DarkBg1Brush}"
-                                    Stroke="{StaticResource SecondaryBrush}"
-                                    StrokeThickness="1">
-                                    <Border.StrokeShape>
-                                        <RoundRectangle CornerRadius="8"/>
-                                    </Border.StrokeShape>
-                                    <Entry Text="{Binding Quantity}"
-                                           MaxLength="2"
-                                           WidthRequest="44"
-                                           HorizontalTextAlignment="Center"
-                                           Keyboard="Numeric"
-                                           Background="Transparent" TextColor="White"
-                                           HorizontalOptions="Center" VerticalOptions="Center"
-                                    />
-                                        
-                                </Border>
                                 <Label Text="{Binding SubTotal, StringFormat='${0}'}"
                                        Grid.Column="2"
                                        VerticalOptions="Center"/>
@@ -92,7 +69,7 @@
                 </VerticalStackLayout>
             </VerticalStackLayout>
         </ScrollView>
-        <Button Text="Place Order" HorizontalOptions="Fill" Margin="24" Grid.Row="1"
+        <Button Text="Adopt pet" HorizontalOptions="Fill" Margin="24" Grid.Row="1"
                 Command="{Binding PlaceOrderCommand}"/>
             
     </Grid>

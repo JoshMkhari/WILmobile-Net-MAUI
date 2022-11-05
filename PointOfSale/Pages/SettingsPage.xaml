@@ -80,7 +80,7 @@
                           RowDefinitions="Auto, Auto" RowSpacing="4"
                           Padding="26">
                         <Image Source="store.png"/>
-                        <Label Text="Your Restaurant" Grid.Column="1" Style="{StaticResource Headline}" />
+                        <Label Text="Your SPCA" Grid.Column="1" Style="{StaticResource Headline}" />
                         <Label Text="Lorem ipsum dolor sit amet" Grid.Column="1" Grid.Row="1" Style="{StaticResource Subhead}"/>
                     </Grid>
 
@@ -115,7 +115,7 @@
                           Padding="26">
                         <Image Source="info.png"/>
                         <Label Text="About Us" Grid.Column="1" Style="{StaticResource Headline}" />
-                        <Label Text="Lorem ipsum dolor sit amet" Grid.Column="1" Grid.Row="1" Style="{StaticResource Subhead}"/>
+                        <Label Text="The SPCA is a non profit org..." Grid.Column="1" Grid.Row="1" Style="{StaticResource Subhead}"/>
                     </Grid>
                 </VerticalStackLayout>
             </Border>
@@ -130,12 +130,12 @@
                 </Border.StrokeShape>
                 <VerticalStackLayout Spacing="8">
                     <Grid Margin="24" >
-                        <Label Text="Products Management" VerticalOptions="Center"/>
-                        <Button Text="Manage Categories" HorizontalOptions="End" VerticalOptions="Center"
+                        <Label Text="Pets Management" VerticalOptions="Center"/>
+                        <Button Text="Manage Pets" HorizontalOptions="End" VerticalOptions="Center"
                                 Command="{Binding NotImplementedCommand}"/>
                     </Grid>
 
-                    <Label Margin="24,8"  Text="All Products" Style="{StaticResource Headline}" TextColor="{StaticResource Primary}"/>
+                    <Label Margin="24,8"  Text="All Pets" Style="{StaticResource Headline}" TextColor="{StaticResource Primary}"/>
                     <BoxView Style="{StaticResource HRule}"/>
                     <ScrollView>
                         <cl:HorizontalWrapLayout

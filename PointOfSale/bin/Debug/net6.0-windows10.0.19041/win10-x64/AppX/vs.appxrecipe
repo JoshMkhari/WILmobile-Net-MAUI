@@ -30,25 +30,25 @@
     <AppXManifest Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\bin\Debug\net6.0-windows10.0.19041\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-05T11:07:10.724</Modified>
+      <Modified>2022-11-05T16:11:13.703</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\bin\Debug\net6.0-windows10.0.19041\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-11-05T11:07:08.874</Modified>
+      <Modified>2022-11-05T16:11:12.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\bin\Debug\net6.0-windows10.0.19041\win10-x64\Food.runtimeconfig.json">
       <PackagePath>Food.runtimeconfig.json</PackagePath>
-      <Modified>2022-11-05T11:01:16.437</Modified>
+      <Modified>2022-11-05T15:22:30.607</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\bin\Debug\net6.0-windows10.0.19041\win10-x64\Food.dll">
       <PackagePath>Food.dll</PackagePath>
-      <Modified>2022-11-05T11:07:06.203</Modified>
+      <Modified>2022-11-05T16:11:09.448</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\apphost.exe">
       <PackagePath>Food.exe</PackagePath>
-      <Modified>2022-11-05T11:07:06.219</Modified>
+      <Modified>2022-11-05T16:11:09.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Josh\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.10\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1196,7 +1196,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\Food.deps.json">
       <PackagePath>Food.deps.json</PackagePath>
-      <Modified>2022-11-05T11:07:10.355</Modified>
+      <Modified>2022-11-05T16:11:13.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.541\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1316,23 +1316,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\food_01SplashScreen.scale-100.png">
       <PackagePath>food_01SplashScreen.scale-100.png</PackagePath>
-      <Modified>2022-11-05T10:58:17.535</Modified>
+      <Modified>2022-11-05T15:22:20.375</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\food_01SplashScreen.scale-125.png">
       <PackagePath>food_01SplashScreen.scale-125.png</PackagePath>
-      <Modified>2022-11-05T10:58:17.562</Modified>
+      <Modified>2022-11-05T15:22:20.431</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\food_01SplashScreen.scale-150.png">
       <PackagePath>food_01SplashScreen.scale-150.png</PackagePath>
-      <Modified>2022-11-05T10:58:17.595</Modified>
+      <Modified>2022-11-05T15:22:20.500</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\food_01SplashScreen.scale-200.png">
       <PackagePath>food_01SplashScreen.scale-200.png</PackagePath>
-      <Modified>2022-11-05T10:58:17.645</Modified>
+      <Modified>2022-11-05T15:22:20.570</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\food_01SplashScreen.scale-400.png">
       <PackagePath>food_01SplashScreen.scale-400.png</PackagePath>
-      <Modified>2022-11-05T10:58:17.819</Modified>
+      <Modified>2022-11-05T15:22:20.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\f\FabIconFont.cs">
       <PackagePath>FabIconFont.cs</PackagePath>
@@ -1364,167 +1364,167 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2022-11-05T11:01:09.245</Modified>
+      <Modified>2022-11-05T15:22:21.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.658</Modified>
+      <Modified>2022-11-05T15:22:22.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.683</Modified>
+      <Modified>2022-11-05T15:22:22.061</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.712</Modified>
+      <Modified>2022-11-05T15:22:22.085</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.758</Modified>
+      <Modified>2022-11-05T15:22:22.124</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.887</Modified>
+      <Modified>2022-11-05T15:22:22.278</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.315</Modified>
+      <Modified>2022-11-05T15:22:21.614</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.324</Modified>
+      <Modified>2022-11-05T15:22:21.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.331</Modified>
+      <Modified>2022-11-05T15:22:21.635</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.336</Modified>
+      <Modified>2022-11-05T15:22:21.646</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.346</Modified>
+      <Modified>2022-11-05T15:22:21.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.430</Modified>
+      <Modified>2022-11-05T15:22:21.779</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.448</Modified>
+      <Modified>2022-11-05T15:22:21.792</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.460</Modified>
+      <Modified>2022-11-05T15:22:21.805</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.478</Modified>
+      <Modified>2022-11-05T15:22:21.822</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.513</Modified>
+      <Modified>2022-11-05T15:22:21.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.388</Modified>
+      <Modified>2022-11-05T15:22:21.723</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.393</Modified>
+      <Modified>2022-11-05T15:22:21.734</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.400</Modified>
+      <Modified>2022-11-05T15:22:21.742</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.406</Modified>
+      <Modified>2022-11-05T15:22:21.751</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.421</Modified>
+      <Modified>2022-11-05T15:22:21.769</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.352</Modified>
+      <Modified>2022-11-05T15:22:21.667</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.359</Modified>
+      <Modified>2022-11-05T15:22:21.679</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.365</Modified>
+      <Modified>2022-11-05T15:22:21.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.372</Modified>
+      <Modified>2022-11-05T15:22:21.698</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.382</Modified>
+      <Modified>2022-11-05T15:22:21.714</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.523</Modified>
+      <Modified>2022-11-05T15:22:21.876</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.536</Modified>
+      <Modified>2022-11-05T15:22:21.896</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.551</Modified>
+      <Modified>2022-11-05T15:22:21.914</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.575</Modified>
+      <Modified>2022-11-05T15:22:21.946</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.643</Modified>
+      <Modified>2022-11-05T15:22:22.016</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\arrow_down.scale-100.png">
       <PackagePath>arrow_down.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.815</Modified>
+      <Modified>2022-11-05T15:22:21.388</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\arrow_down.scale-125.png">
       <PackagePath>arrow_down.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.825</Modified>
+      <Modified>2022-11-05T15:22:21.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\arrow_down.scale-150.png">
       <PackagePath>arrow_down.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.828</Modified>
+      <Modified>2022-11-05T15:22:21.474</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\arrow_down.scale-200.png">
       <PackagePath>arrow_down.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.832</Modified>
+      <Modified>2022-11-05T15:22:21.490</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\arrow_down.scale-400.png">
       <PackagePath>arrow_down.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.837</Modified>
+      <Modified>2022-11-05T15:22:21.500</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\arrow_up.scale-100.png">
       <PackagePath>arrow_up.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.840</Modified>
+      <Modified>2022-11-05T15:22:21.391</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\arrow_up.scale-125.png">
       <PackagePath>arrow_up.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.842</Modified>
+      <Modified>2022-11-05T15:22:21.408</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\arrow_up.scale-150.png">
       <PackagePath>arrow_up.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.844</Modified>
+      <Modified>2022-11-05T15:22:21.469</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\arrow_up.scale-200.png">
       <PackagePath>arrow_up.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.846</Modified>
+      <Modified>2022-11-05T15:22:21.474</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\arrow_up.scale-400.png">
       <PackagePath>arrow_up.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.848</Modified>
+      <Modified>2022-11-05T15:22:21.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\belgian.scale-100.jpg">
       <PackagePath>belgian.scale-100.jpg</PackagePath>
@@ -1544,23 +1544,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\coin.scale-100.png">
       <PackagePath>coin.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.936</Modified>
+      <Modified>2022-11-05T15:22:21.394</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\coin.scale-125.png">
       <PackagePath>coin.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.939</Modified>
+      <Modified>2022-11-05T15:22:21.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\coin.scale-150.png">
       <PackagePath>coin.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.941</Modified>
+      <Modified>2022-11-05T15:22:21.474</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\coin.scale-200.png">
       <PackagePath>coin.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.944</Modified>
+      <Modified>2022-11-05T15:22:21.486</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\coin.scale-400.png">
       <PackagePath>coin.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.950</Modified>
+      <Modified>2022-11-05T15:22:21.501</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\cotton.scale-100.png">
       <PackagePath>cotton.scale-100.png</PackagePath>
@@ -1572,23 +1572,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\customer.scale-100.png">
       <PackagePath>customer.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.822</Modified>
+      <Modified>2022-11-05T15:22:21.387</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\customer.scale-125.png">
       <PackagePath>customer.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.826</Modified>
+      <Modified>2022-11-05T15:22:21.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\customer.scale-150.png">
       <PackagePath>customer.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.830</Modified>
+      <Modified>2022-11-05T15:22:21.469</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\customer.scale-200.png">
       <PackagePath>customer.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.833</Modified>
+      <Modified>2022-11-05T15:22:21.477</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\customer.scale-400.png">
       <PackagePath>customer.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.838</Modified>
+      <Modified>2022-11-05T15:22:21.495</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dachshmund.scale-100.jpg">
       <PackagePath>dachshmund.scale-100.jpg</PackagePath>
@@ -1596,63 +1596,63 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\discount.scale-100.png">
       <PackagePath>discount.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.909</Modified>
+      <Modified>2022-11-05T15:22:21.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\discount.scale-125.png">
       <PackagePath>discount.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.911</Modified>
+      <Modified>2022-11-05T15:22:21.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\discount.scale-150.png">
       <PackagePath>discount.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.914</Modified>
+      <Modified>2022-11-05T15:22:21.470</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\discount.scale-200.png">
       <PackagePath>discount.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.917</Modified>
+      <Modified>2022-11-05T15:22:21.475</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\discount.scale-400.png">
       <PackagePath>discount.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.921</Modified>
+      <Modified>2022-11-05T15:22:21.502</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.018</Modified>
+      <Modified>2022-11-05T15:22:21.515</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.115</Modified>
+      <Modified>2022-11-05T15:22:21.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.197</Modified>
+      <Modified>2022-11-05T15:22:21.724</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.338</Modified>
+      <Modified>2022-11-05T15:22:21.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.743</Modified>
+      <Modified>2022-11-05T15:22:22.317</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\filter.scale-100.png">
       <PackagePath>filter.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.775</Modified>
+      <Modified>2022-11-05T15:22:22.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\filter.scale-125.png">
       <PackagePath>filter.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.778</Modified>
+      <Modified>2022-11-05T15:22:22.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\filter.scale-150.png">
       <PackagePath>filter.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.781</Modified>
+      <Modified>2022-11-05T15:22:22.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\filter.scale-200.png">
       <PackagePath>filter.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.785</Modified>
+      <Modified>2022-11-05T15:22:22.329</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\filter.scale-400.png">
       <PackagePath>filter.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.790</Modified>
+      <Modified>2022-11-05T15:22:22.333</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\food_01.scale-100.png">
       <PackagePath>food_01.scale-100.png</PackagePath>
@@ -1664,143 +1664,143 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\graph.scale-100.png">
       <PackagePath>graph.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.976</Modified>
+      <Modified>2022-11-05T15:22:22.359</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\graph.scale-125.png">
       <PackagePath>graph.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.979</Modified>
+      <Modified>2022-11-05T15:22:22.361</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\graph.scale-150.png">
       <PackagePath>graph.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.983</Modified>
+      <Modified>2022-11-05T15:22:22.364</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\graph.scale-200.png">
       <PackagePath>graph.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.986</Modified>
+      <Modified>2022-11-05T15:22:22.366</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\graph.scale-400.png">
       <PackagePath>graph.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.990</Modified>
+      <Modified>2022-11-05T15:22:22.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\heart.scale-100.png">
       <PackagePath>heart.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.822</Modified>
+      <Modified>2022-11-05T15:22:21.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\heart.scale-125.png">
       <PackagePath>heart.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.825</Modified>
+      <Modified>2022-11-05T15:22:21.410</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\heart.scale-150.png">
       <PackagePath>heart.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.829</Modified>
+      <Modified>2022-11-05T15:22:21.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\heart.scale-200.png">
       <PackagePath>heart.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.831</Modified>
+      <Modified>2022-11-05T15:22:21.473</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\heart.scale-400.png">
       <PackagePath>heart.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.834</Modified>
+      <Modified>2022-11-05T15:22:21.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\home.scale-100.png">
       <PackagePath>home.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.852</Modified>
+      <Modified>2022-11-05T15:22:21.386</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\home.scale-125.png">
       <PackagePath>home.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.854</Modified>
+      <Modified>2022-11-05T15:22:21.394</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\home.scale-150.png">
       <PackagePath>home.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.856</Modified>
+      <Modified>2022-11-05T15:22:21.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\home.scale-200.png">
       <PackagePath>home.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.858</Modified>
+      <Modified>2022-11-05T15:22:21.409</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\home.scale-400.png">
       <PackagePath>home.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.861</Modified>
+      <Modified>2022-11-05T15:22:21.477</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\info.scale-100.png">
       <PackagePath>info.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.864</Modified>
+      <Modified>2022-11-05T15:22:21.499</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\info.scale-125.png">
       <PackagePath>info.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.866</Modified>
+      <Modified>2022-11-05T15:22:21.512</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\info.scale-150.png">
       <PackagePath>info.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.868</Modified>
+      <Modified>2022-11-05T15:22:21.521</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\info.scale-200.png">
       <PackagePath>info.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.870</Modified>
+      <Modified>2022-11-05T15:22:21.531</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\info.scale-400.png">
       <PackagePath>info.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.872</Modified>
+      <Modified>2022-11-05T15:22:21.537</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\logo.scale-100.png">
       <PackagePath>logo.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.940</Modified>
+      <Modified>2022-11-05T15:22:21.568</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\logo.scale-125.png">
       <PackagePath>logo.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.944</Modified>
+      <Modified>2022-11-05T15:22:21.580</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\logo.scale-150.png">
       <PackagePath>logo.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.948</Modified>
+      <Modified>2022-11-05T15:22:21.586</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\logo.scale-200.png">
       <PackagePath>logo.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.952</Modified>
+      <Modified>2022-11-05T15:22:21.605</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\logo.scale-400.png">
       <PackagePath>logo.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.960</Modified>
+      <Modified>2022-11-05T15:22:21.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\logout.scale-100.png">
       <PackagePath>logout.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.982</Modified>
+      <Modified>2022-11-05T15:22:21.513</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\logout.scale-125.png">
       <PackagePath>logout.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.984</Modified>
+      <Modified>2022-11-05T15:22:21.523</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\logout.scale-150.png">
       <PackagePath>logout.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.987</Modified>
+      <Modified>2022-11-05T15:22:21.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\logout.scale-200.png">
       <PackagePath>logout.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.989</Modified>
+      <Modified>2022-11-05T15:22:21.546</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\logout.scale-400.png">
       <PackagePath>logout.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.993</Modified>
+      <Modified>2022-11-05T15:22:21.553</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\message.scale-100.png">
       <PackagePath>message.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.996</Modified>
+      <Modified>2022-11-05T15:22:21.561</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\message.scale-125.png">
       <PackagePath>message.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:08.998</Modified>
+      <Modified>2022-11-05T15:22:21.565</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\message.scale-150.png">
       <PackagePath>message.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.000</Modified>
+      <Modified>2022-11-05T15:22:21.569</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\message.scale-200.png">
       <PackagePath>message.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.002</Modified>
+      <Modified>2022-11-05T15:22:21.581</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\message.scale-400.png">
       <PackagePath>message.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.005</Modified>
+      <Modified>2022-11-05T15:22:21.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\noimage.scale-100.png">
       <PackagePath>noimage.scale-100.png</PackagePath>
@@ -1808,43 +1808,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\notification.scale-100.png">
       <PackagePath>notification.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.021</Modified>
+      <Modified>2022-11-05T15:22:21.531</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\notification.scale-125.png">
       <PackagePath>notification.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.023</Modified>
+      <Modified>2022-11-05T15:22:21.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\notification.scale-150.png">
       <PackagePath>notification.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.028</Modified>
+      <Modified>2022-11-05T15:22:21.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\notification.scale-200.png">
       <PackagePath>notification.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.032</Modified>
+      <Modified>2022-11-05T15:22:21.553</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\notification.scale-400.png">
       <PackagePath>notification.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.037</Modified>
+      <Modified>2022-11-05T15:22:21.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\order.scale-100.png">
       <PackagePath>order.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.052</Modified>
+      <Modified>2022-11-05T15:22:21.517</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\order.scale-125.png">
       <PackagePath>order.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.057</Modified>
+      <Modified>2022-11-05T15:22:21.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\order.scale-150.png">
       <PackagePath>order.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.060</Modified>
+      <Modified>2022-11-05T15:22:21.533</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\order.scale-200.png">
       <PackagePath>order.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.064</Modified>
+      <Modified>2022-11-05T15:22:21.543</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\order.scale-400.png">
       <PackagePath>order.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.071</Modified>
+      <Modified>2022-11-05T15:22:21.557</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\qr_code.scale-100.png">
       <PackagePath>qr_code.scale-100.png</PackagePath>
@@ -1856,43 +1856,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\setting.scale-100.png">
       <PackagePath>setting.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.058</Modified>
+      <Modified>2022-11-05T15:22:21.388</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\setting.scale-125.png">
       <PackagePath>setting.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.065</Modified>
+      <Modified>2022-11-05T15:22:21.403</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\setting.scale-150.png">
       <PackagePath>setting.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.068</Modified>
+      <Modified>2022-11-05T15:22:21.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\setting.scale-200.png">
       <PackagePath>setting.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.073</Modified>
+      <Modified>2022-11-05T15:22:21.482</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\setting.scale-400.png">
       <PackagePath>setting.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.076</Modified>
+      <Modified>2022-11-05T15:22:21.506</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\setting_on.scale-100.png">
       <PackagePath>setting_on.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.084</Modified>
+      <Modified>2022-11-05T15:22:21.517</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\setting_on.scale-125.png">
       <PackagePath>setting_on.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.090</Modified>
+      <Modified>2022-11-05T15:22:21.530</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\setting_on.scale-150.png">
       <PackagePath>setting_on.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.095</Modified>
+      <Modified>2022-11-05T15:22:21.543</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\setting_on.scale-200.png">
       <PackagePath>setting_on.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.099</Modified>
+      <Modified>2022-11-05T15:22:21.547</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\setting_on.scale-400.png">
       <PackagePath>setting_on.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.105</Modified>
+      <Modified>2022-11-05T15:22:21.554</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\siamese.scale-100.png">
       <PackagePath>siamese.scale-100.png</PackagePath>
@@ -1904,23 +1904,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\store.scale-100.png">
       <PackagePath>store.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.126</Modified>
+      <Modified>2022-11-05T15:22:21.390</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\store.scale-125.png">
       <PackagePath>store.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.128</Modified>
+      <Modified>2022-11-05T15:22:21.397</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\store.scale-150.png">
       <PackagePath>store.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.131</Modified>
+      <Modified>2022-11-05T15:22:21.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\store.scale-200.png">
       <PackagePath>store.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.133</Modified>
+      <Modified>2022-11-05T15:22:21.469</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\store.scale-400.png">
       <PackagePath>store.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.136</Modified>
+      <Modified>2022-11-05T15:22:21.478</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\toyger.scale-100.png">
       <PackagePath>toyger.scale-100.png</PackagePath>
@@ -1928,23 +1928,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\unlock.scale-100.png">
       <PackagePath>unlock.scale-100.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.078</Modified>
+      <Modified>2022-11-05T15:22:21.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\unlock.scale-125.png">
       <PackagePath>unlock.scale-125.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.081</Modified>
+      <Modified>2022-11-05T15:22:21.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\unlock.scale-150.png">
       <PackagePath>unlock.scale-150.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.086</Modified>
+      <Modified>2022-11-05T15:22:21.531</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\unlock.scale-200.png">
       <PackagePath>unlock.scale-200.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.091</Modified>
+      <Modified>2022-11-05T15:22:21.538</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\maui-samples-main\6.0\Apps\PointOfSale\src\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\unlock.scale-400.png">
       <PackagePath>unlock.scale-400.png</PackagePath>
-      <Modified>2022-11-05T11:01:09.097</Modified>
+      <Modified>2022-11-05T15:22:21.546</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Josh\.nuget\packages\ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\StaticAssets\package-lock.json">
       <PackagePath>StaticAssets\package-lock.json</PackagePath>

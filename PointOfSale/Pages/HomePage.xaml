@@ -39,7 +39,7 @@
 
         <ScrollView Grid.Row="2">
             <Grid RowDefinitions="70,*">
-                <Label Text="Choose Dishes" Style="{StaticResource Title1}"/>
+                <Label Text="Choose Pet" Style="{StaticResource Title1}"/>
 
                 <l:HorizontalWrapLayout Grid.Row="1" Spacing="20"
                                        BindableLayout.ItemsSource="{Binding Products}"
@@ -68,7 +68,7 @@
                                 </VerticalStackLayout>
                                 <Image
                                     Grid.RowSpan="2" VerticalOptions="Start"
-                                    Source="{Binding Image, FallbackValue=food_01.png}" HorizontalOptions="Center"/>
+                                    Source="{Binding Image, FallbackValue=food_01.png}" HorizontalOptions="Center" Aspect="AspectFill"/>
                             </Grid>
                         </DataTemplate>
                      </BindableLayout.ItemTemplate>
