@@ -27,8 +27,7 @@
                             <TapGestureRecognizer Command="{Binding PayCommand}"/>
                         </Grid.GestureRecognizers>
                         <Border Stroke="Transparent" StrokeThickness="1" VerticalOptions="Center" HorizontalOptions="Start"
-                                HeightRequest="60" WidthRequest="60" Background="{x:Static models:Order.RandomBrush}"
-                        >
+                                HeightRequest="60" WidthRequest="60" Background="{x:Static models:Order.RandomBrush}">
                             <Border.StrokeShape>
                                 <Ellipse Frame="0,0,60,60"  />
                             </Border.StrokeShape>

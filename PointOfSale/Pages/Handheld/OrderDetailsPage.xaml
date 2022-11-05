@@ -13,8 +13,7 @@
     
     <Grid RowDefinitions="120, *, 66" Margin="20">
         <VerticalStackLayout VerticalOptions="Center" Spacing="8">
-            <Label Text="Current Order" Style="{StaticResource LargeTitle}"/>
-            <Label Text="{Binding Order.Table, StringFormat='TABLE {0}'}"/>
+            <Label Text="Pet Details" Style="{StaticResource LargeTitle}"/>
             <BoxView Style="{StaticResource HRule}"/>
         </VerticalStackLayout>
 
@@ -23,15 +22,13 @@
                 <DataTemplate x:DataType="models:Item">
                     <Grid ColumnDefinitions="160,60,*" ColumnSpacing="8" Margin="0,8" HeightRequest="70">
                         <Label Text="{Binding Title}" Grid.Column="0" VerticalOptions="Center"/>
-                        <Label Text="{Binding Quantity}" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Start"/>
                         <Label Text="{Binding Price, StringFormat='${0:N2}'}" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Start"/>
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
             <CollectionView.Header>
                 <Grid ColumnDefinitions="160,60,*" Margin="0,8" HeightRequest="40" ColumnSpacing="8">
-                        <Label Text="Item" Grid.Column="0" VerticalOptions="Center" Style="{StaticResource Headline}"/>
-                        <Label Text="Quantity" Grid.Column="1" VerticalOptions="Center" Style="{StaticResource Headline}"/>
+                        <Label Text="Pet" Grid.Column="0" VerticalOptions="Center" Style="{StaticResource Headline}"/>
                         <Label Text="Price" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Start" Style="{StaticResource Headline}"/>
                         <!-- <BoxView Style="{StaticResource HRule}" VerticalOptions="End" Grid.ColumnSpan="3" /> -->
                     </Grid>
