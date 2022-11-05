@@ -14,7 +14,7 @@
     
     <Grid RowDefinitions="120, *, 66" Margin="20">
         <VerticalStackLayout VerticalOptions="Center" Spacing="8">
-            <Label Text="Orders" Style="{StaticResource LargeTitle}"/>
+            <Label Text="Adopt a pet" Style="{StaticResource LargeTitle}"/>
             <Label Text="{Binding Source={x:Static system:DateTime.Today}, StringFormat=Date: {0:dddd, MMMM dd yyyy}, FallbackValue='Hello'}"/>
             <BoxView Style="{StaticResource HRule}"/>
         </VerticalStackLayout>
@@ -44,9 +44,9 @@
             </CollectionView.ItemTemplate>
             <CollectionView.Header>
                 <Grid ColumnDefinitions="80,100,*" Margin="0,8" HeightRequest="40" ColumnSpacing="8">
-                    <Label Text="Table" Grid.Column="0" VerticalOptions="Center" FontAttributes="Bold"/>
-                    <Label Text="Total" Grid.Column="1" VerticalOptions="Center" FontAttributes="Bold"/>
-                    <Label Text="Status" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Start" FontAttributes="Bold"/>
+                    <Label Text="Pet" Grid.Column="0" VerticalOptions="Center" FontAttributes="Bold"/>
+                    <Label Text="Price" Grid.Column="1" VerticalOptions="Center" FontAttributes="Bold"/>
+                    <Label Text="Breed" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Start" FontAttributes="Bold"/>
                 </Grid>
             </CollectionView.Header>
         </CollectionView>
