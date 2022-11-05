@@ -22,7 +22,7 @@
             <TapGestureRecognizer Command="{Binding PayCommand}"/>
         </Grid.GestureRecognizers>
         <VerticalStackLayout VerticalOptions="Center" Spacing="8" Grid.ColumnSpan="2">
-            <Label Text="Insert, Tap, Swipe" Style="{StaticResource LargeTitle}"/>
+            <Label Text="Paypal Login" Style="{StaticResource LargeTitle}"/>
             <BoxView Style="{StaticResource HRule}"/>
         </VerticalStackLayout>
         

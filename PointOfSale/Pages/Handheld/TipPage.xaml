@@ -28,7 +28,7 @@
           RadioButtonGroup.SelectedValue="{Binding Tip}"
     >
         <VerticalStackLayout VerticalOptions="Center" Spacing="8" Grid.ColumnSpan="2">
-            <Label Text="Add a Tip" Style="{StaticResource LargeTitle}"/>
+            <Label Text="Add a Donation" Style="{StaticResource LargeTitle}"/>
             <Label Text="{Binding Order.Total, StringFormat='Your Bill: ${0}'}"/>
             <BoxView Style="{StaticResource HRule}"/>
         </VerticalStackLayout>
@@ -95,18 +95,6 @@
                     <Label.FormattedText>
                         <FormattedString>
                             <Span Text="No Tip" Style="{StaticResource LargeTitle}"/>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-            </RadioButton.Content>
-        </RadioButton>
-        
-        <RadioButton Grid.Row="3" Grid.Column="1" Value="0">
-            <RadioButton.Content>
-                <Label HorizontalTextAlignment="Center" VerticalOptions="Center">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <Span Text="Custom" Style="{StaticResource LargeTitle}"/>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>

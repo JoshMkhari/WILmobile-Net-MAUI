@@ -36,8 +36,7 @@
         </CollectionView>
 
         <Grid ColumnSpacing="20" ColumnDefinitions="*,*" Grid.Row="2">
-            <Button Text="Add" Grid.Column="0" Command="{Binding AddCommand}" Style="{StaticResource PrimaryButtonOutline}" HorizontalOptions="Fill"/>
-            <Button Text="Pay" Grid.Column="1" Command="{Binding PayCommand}" HorizontalOptions="Fill"/>
+            <Button Text="Adopt" Grid.Column="1" Command="{Binding PayCommand}" HorizontalOptions="Fill"/>
         </Grid>
 
     </Grid>

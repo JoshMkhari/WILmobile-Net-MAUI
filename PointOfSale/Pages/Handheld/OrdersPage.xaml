@@ -50,11 +50,5 @@
             </CollectionView.Header>
         </CollectionView>
 
-        <FlexLayout Grid.Row="2" AlignContent="SpaceAround" JustifyContent="SpaceAround"
-                    Background="{StaticResource DarkBg1Transparent}">
-            <Image Source="home.png"/>
-            <Image Source="logout.png"/>
-        </FlexLayout>
-
     </Grid>
 </ContentPage>
